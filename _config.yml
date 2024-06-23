@@ -1,4 +1,5 @@
 # add the following to _config.yml file
 title: Andrew Kim
+description: Policy-oriented data project portfolio
 logo: /assets/headshot.png
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
