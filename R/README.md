@@ -1,6 +1,6 @@
 # R Projects
 
-This folder contains projects I completed using my primary language of choice, R!
+This folder contains projects I completed using my first programming language, R!
 
 **ConstitutionalVeneration.R (Fall 2023)** - survey response cleaning, coding, and statistical analysis (multivariate regression, factor analysis) to explore US residents' attitudes towards the Constitution
 
