@@ -12,11 +12,11 @@
 <h1 id="research-projects">Research Projects</h1>
 <h3 id="-ins-reevaluating-public-aversion-to-amending-the-u-s-constitution-fall-2023-https-github-com-andrewdkim7-portfolio-blob-0b1638012aded0788e97b806b80f5b479bd09e67-r-constitutionalveneration-r-ins-"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/0b1638012aded0788e97b806b80f5b479bd09e67/R/ConstitutionalVeneration.R">Reevaluating Public Aversion to Amending the U.S. Constitution (Fall 2023)</a></ins></h3>
 <p>● Winner of Rice&#39;s <strong>2024 Hudspeth Award for Best Undergraduate Seminar Paper in Political Science</strong><br>● Solo research paper on U.S. residents&#39; attitudes towards federal Constitution and its amendment<br>● Designed/administered survey experiment in Qualtrics and cleaned/analyzed responses in <strong>R</strong> with multivariate regression and factor analysis (and publishable visualizations) to identify two distinct dimensions of conventional measures of constitutional respect -- symbolic respect and perception of modern relevance<br>● Continuing as senior honors thesis as nationwide survey under mentorship of Dr. Robert Stein  </p>
-<p><img src="/R/visuals/symdistribution.png" alt="Symbolic Respect Response Distribution"> <img src="/R/visuals/reldistribution.png" alt="Perceived Relevance Response Distribution">  </p>
+<p><img src="R/visuals/symdistribution.png" alt="Symbolic Respect Response Distribution"> <img src="R/visuals/reldistribution.png" alt="Perceived Relevance Response Distribution">  </p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/e3f20c15e5b40f1f4230b06223b50b86533837e4/R/reports/VenerationvsRespect_Paper.pdf">Read the full report here!</a>  </p>
 <h3 id="-ins-biographical-electability-effects-of-dishonesty-on-political-trust-spring-2023-https-github-com-andrewdkim7-portfolio-blob-0b1638012aded0788e97b806b80f5b479bd09e67-r-biographicalelectability-r-ins-"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/0b1638012aded0788e97b806b80f5b479bd09e67/R/BiographicalElectability.R">Biographical Electability: Effects of Dishonesty on Political Trust (Spring 2023)</a></ins></h3>
 <p>● Team research paper exploring effects of electoral candidate’s dishonesty about biographical profile via vignette-based Qualtrics survey of 572 U.S. residents<br>● Cleaned responses and conducted statistical tests (with poster-ready visualizations) in <strong>R</strong> to evaluate effect of subject of various biographical lies on perceived electability  </p>
-<p><img src="/R/visuals/lieeffects.png" alt="Biographical Lie Effects">  </p>
+<p><img src="R/visuals/lieeffects.png" alt="Biographical Lie Effects">  </p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/e3f20c15e5b40f1f4230b06223b50b86533837e4/R/reports/BiographicalElectability_Paper.pdf">Read the full report here!</a>  </p>
 <h1 id="personal-projects">Personal Projects</h1>
 <h3 id="-ins-letterboxd-rating-sql-analysis-https-github-com-andrewdkim7-portfolio-blob-9bcb718f42cb266c311dd58f5524542c09d8f5f5-sql-letterboxdsqlanalysis-ipynb-ins-"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/9bcb718f42cb266c311dd58f5524542c09d8f5f5/SQL/LetterboxdSQLAnalysis.ipynb">Letterboxd Rating SQL Analysis</a></ins></h3>
@@ -24,11 +24,11 @@
 <h1 id="course-projects">Course Projects</h1>
 <h3 id="-ins-evaluating-the-impact-of-same-day-voter-registration-on-2020-election-turnout-fall-2023-https-github-com-andrewdkim7-portfolio-blob-0b1638012aded0788e97b806b80f5b479bd09e67-r-samedayvoterregistration-r-ins-"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/0b1638012aded0788e97b806b80f5b479bd09e67/R/SameDayVoterRegistration.R">Evaluating the Impact of Same-Day Voter Registration on 2020 Election Turnout (Fall 2023)</a></ins></h3>
 <p>● Simulated hypothetical voter turnout data in 33 U.S. states and conducted difference-in-differences evaluation of same-day voter registration (SDR) policy on electoral turnout in <strong>R</strong><br>● Prescribed policy recommendation in favor of SDR based on simulated findings  </p>
-<p><img src="/R/visuals/sdrplot.png" alt="SDR Effect Plot">  </p>
+<p><img src="R/visuals/sdrplot.png" alt="SDR Effect Plot">  </p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/056db44863de5a0b2b8ffa619c41183142f2d37b/R/reports/SameDayRegistration_Report.pdf">Read the full report here!</a>  </p>
 <h3 id="-ins-senate-bipartisanship-from-2015-2021-fall-2022-https-github-com-andrewdkim7-portfolio-blob-0b1638012aded0788e97b806b80f5b479bd09e67-r-senatebipartisanship-r-ins-"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/0b1638012aded0788e97b806b80f5b479bd09e67/R/SenateBipartisanship.R">Senate Bipartisanship from 2015-2021 (Fall 2022)</a></ins></h3>
 <p>● Analyzed effect of year and party of U.S. Senators on individual bipartisanship scores with fixed-effects bivariate linear regression in <strong>R</strong><br>● Concluded no significant change in bipartisanship between 2015 to 2021 and significantly lower bipartisanship among Democratic Senators  </p>
-<p><img src="/R/visuals/bipartisan.png" alt="Bipartisanship Plots">  </p>
+<p><img src="R/visuals/bipartisan.png" alt="Bipartisanship Plots">  </p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/056db44863de5a0b2b8ffa619c41183142f2d37b/R/reports/SenateBipartisanship_Writeup.pdf">Read the full report here!</a>  </p>
 <h1 id="other-work-experience">Other Work Experience</h1>
 <h3 id="trilogy-interactive-digital-production-fellow-summer-2022-">Trilogy Interactive - Digital Production Fellow (Summer 2022)</h3>
