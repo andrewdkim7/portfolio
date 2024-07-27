@@ -1,3 +1,3 @@
 # Tableau Projects
 
-This folder contains Tableau visualizations I have created! I only recently taught myself the foundations of Tableau after discovering its utility for appealing visualizations and intend to use it to present my findings from my current project: text-classification of U.S. state constitutions and analysis of constitutional language effects on state civic culture/electoral practices. I anticipate completing this by August 2024!
+This folder contains Tableau dashboards I have created! Having taught myself Tableau, I plan to create a dashboard to visualize my current data project: an analysis of trends related to U.S. state ballot measures, and a model predicting support for future ballot measures based on various variables. I anticipate completing this by August 2024!
