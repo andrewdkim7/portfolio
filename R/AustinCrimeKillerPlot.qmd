@@ -1,0 +1,329 @@
+---
+title: "STAT 405 Final Presentation"
+subtitle: "Group 2: Austin Crime"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    css: styles.css
+    footer: STAT 405 - Austin Crime
+server: shiny
+---
+## Killer Plot
+
+```{r}
+#| context: setup
+library(dplyr)
+library(RSQLite)
+library(magrittr)
+library(grid)
+
+dcon <- dbConnect(SQLite(), dbname = '/Users/andrew/Desktop/STAT 405/SQL/STAT405_605.sqlite')
+initExtension(dcon)
+
+# SCHOOL QUANTITY
+schquantquery <- dbSendQuery(dcon, "
+SELECT COUNT(*) schoolcount,
+      `Council District` councildist
+FROM school s LEFT JOIN zip z ON s.ZIP = z.ZIP
+WHERE councildist IS NOT NULL
+GROUP BY councildist")
+schquant <- data.frame(dbFetch(schquantquery))
+dbClearResult(schquantquery)
+
+schquant %<>% 
+  mutate(schoolcount = 2 * (schoolcount - min(schoolcount)) / 
+                              (max(schoolcount) - min(schoolcount)) - 1)
+
+
+# SCHOOL QUALITY
+schoolratingsquery <- dbSendQuery(dcon, "
+SELECT AVG(CASE C_RATING 
+              WHEN 'A'THEN 4 
+              WHEN 'B' THEN 3
+              WHEN 'C' THEN 2
+              WHEN 'D' THEN 1
+              WHEN 'F' THEN 0
+              ELSE NULL
+           END) avgrating,
+       `Council District` councildist
+FROM school s LEFT JOIN zip z ON s.ZIP = z.ZIP
+WHERE councildist IS NOT NULL
+GROUP BY councildist;")
+schoolratings <- data.frame(dbFetch(schoolratingsquery))
+dbClearResult(schoolratingsquery)
+
+schoolratings %<>% 
+  mutate(avgrating = 2 * (avgrating - min(avgrating)) / 
+           (max(avgrating) - min(avgrating)) - 1)
+
+
+# SOLVE RATE
+solvecountquery <- dbGetQuery(dcon, "SELECT 
+    CASE 
+        WHEN c.`Clearance Status` IS NULL OR c.`Clearance Status` = 9 THEN 9
+        ELSE c.`Clearance Status`
+    END `Clearance Status`, 
+    COUNT(*) count, 
+    `Council District`
+FROM crime c 
+WHERE `Council District` IS NOT NULL
+GROUP BY `Council District`")
+dbWriteTable(dcon, "solvecount", solvecountquery, overwrite = TRUE)
+solverate <- dbGetQuery(dcon, "
+SELECT `Council District`, 
+       (count * 1.0 / (SELECT SUM(count) FROM solvecount))  proportion
+FROM solvecount;")
+solverate %<>%
+  mutate(scaled_count = 2 * (proportion - min(proportion)) / 
+           (max(proportion) - min(proportion)) - 1)
+
+
+# AVERAGE SOLVE DAYS
+query1 <- dbSendQuery(dcon, "
+                      SELECT `Council District` AS district, 
+                             `Clearance Date` AS clearance_date, 
+                             `Report Date` AS report_date
+                      FROM crime
+                      WHERE (`Clearance Date` IS NOT NULL AND `Clearance Date` != '')
+                      AND (`Report Date` IS NOT NULL AND `Report Date` != '')
+                      AND `Council District` IS NOT NULL AND `Council District` != ''
+                      ORDER BY `Council District`;
+                      ")
+
+clearance_dates <- data.frame(dbFetch(query1))
+dbClearResult(query1)
+
+clearance_dates <- clearance_dates %>%
+  mutate(
+    clearance_date = as.Date(clearance_date, format = "%m/%d/%Y"),
+    report_date = as.Date(report_date, format = "%m/%d/%Y")
+  ) %>%
+  filter(!is.na(clearance_date) & !is.na(report_date)) %>%  # Remove rows with NA dates
+  mutate(ClearanceDays = as.numeric(clearance_date - report_date)) %>%
+  filter(!is.na(ClearanceDays))  
+
+clearance_dates %<>% 
+  group_by(district) %>%
+  summarize(ClearanceDays = mean(ClearanceDays))
+
+clearance_dates %<>%
+  mutate(scaled_ClearanceDays = -1 * (2 * (ClearanceDays - min(ClearanceDays)) / 
+                                        (max(ClearanceDays) - min(ClearanceDays)) - 1))
+
+
+## CRIME PER CAPITA
+austinbyyearquery <- dbGetQuery(dcon, "
+SELECT SUBSTRING(`Occurred Date`, 7, 10) year, 
+       `Council District`, 
+       COUNT(*) number_of_crimes
+FROM crime
+WHERE `Council District` IS NOT NULL
+GROUP BY year, `Council District`")
+dbWriteTable(dcon, "byyear", austinbyyearquery, overwrite = TRUE)
+
+demographicquery <- dbSendQuery(dcon, "
+SELECT a.Total_Population_2020_Census, 
+       b.year,
+       b.number_of_crimes, 
+       b.`Council District`
+FROM byyear b JOIN demographic a ON a.District = b.`Council District`;")
+rate <- data.frame(dbFetch(demographicquery))
+dbClearResult(demographicquery)
+
+rate %<>% 
+  filter(year %in% c(2019:2024)) %>% 
+  mutate(thousands = Total_Population_2020_Census/1000, 
+         crime_rate = number_of_crimes/thousands) %>%
+  arrange(year) %>% 
+  mutate(rate_of_change = (crime_rate - lag(crime_rate)) / lag(crime_rate))
+
+aroc <- rate %>% 
+  group_by(Council.District) %>% 
+  filter(!is.na(rate_of_change)) %>% 
+  summarise(average_rate_of_change = mean(rate_of_change))
+dbWriteTable(dcon, "aroc", aroc, overwrite = TRUE)
+
+mean_rate <- rate %>% 
+  group_by(Council.District) %>%
+  summarise(mean_rate = mean(crime_rate))
+dbWriteTable(dcon, "mean_rate", mean_rate, overwrite = TRUE)
+
+rate_summarized <- dbGetQuery(dcon, "
+SELECT a.average_rate_of_change, 
+       a.`Council.District`, 
+       m.mean_rate 
+FROM aroc a INNER JOIN mean_rate m ON 
+     m.`Council.District` = a.`Council.District`;")
+rate_summarized %<>% 
+  mutate(scale_aroc =  -1 * (2 * (average_rate_of_change - min(average_rate_of_change)) / 
+                               (max(average_rate_of_change) - min(average_rate_of_change)) - 1), 
+         scaled_mean_rate = -1 * (2 * (mean_rate - min(mean_rate)) / 
+                               (max(mean_rate) - min(mean_rate)) - 1))
+
+
+# PROPORTION VIOLENT
+crime_summary_type_query <- dbSendQuery(dcon, "
+SELECT `Council District`, 
+       `Category Description`, 
+       COUNT(*)
+FROM crime
+GROUP BY `Council District`, `Category Description`")
+crime_summary_type <- data.frame(dbFetch(crime_summary_type_query))
+dbClearResult(crime_summary_type_query)
+
+colnames(crime_summary_type) <- c("Council District", "Category Description", "number_of_crimes")
+
+crime_summary_type %<>% 
+  mutate(violent = ifelse(`Category Description` %in% 
+                            c("Aggravated Assault", "Murder", "Rape", "Robbery"), "Violent", "Property"))
+crime_district_counts <- crime_summary_type %>% 
+  group_by(`Council District`) %>% 
+  summarize(total = sum(number_of_crimes))
+crime_type_counts <- crime_summary_type %>% 
+  group_by(`Council District`, violent) %>% 
+  summarize(count = sum(number_of_crimes))
+crime_type_counts <- crime_type_counts %>% 
+  left_join(crime_district_counts, by = "Council District")
+crime_type_counts %<>% mutate(violprop = count/total)
+crime_violent_counts <- crime_type_counts %>% filter(violent == "Violent")
+crime_violent_counts <- head(crime_violent_counts, -1)
+
+violprops <- crime_violent_counts$violprop
+crime_violent_counts$stdviolprop <- 
+  -1 * (2 * (violprops - min(violprops)) / (max(violprops) - min(violprops)) - 1)
+
+dbDisconnect(dcon)
+
+# SUMMARY DATAFRAME
+sumdf <- data.frame(district = 1:10, 
+                    schrating = schoolratings$avgrating, 
+                    schquant = schquant$schoolcount, 
+                    solverate = solverate$scaled_count, 
+                    solvedays = clearance_dates$scaled_ClearanceDays, 
+                    percapita = rate_summarized$scaled_mean_rate, 
+                    rateofchange = rate_summarized$scale_aroc, 
+                    violprop = crime_violent_counts$stdviolprop)
+
+sumdf <- rbind(sumdf, c('color', 'red', 'orange', 'yellow', 'green', 
+                              'blue', 'purple', 'pink'))
+sumdf <- rbind(sumdf, c('legendtext', 'School Quality', 'School Count', 
+                        'Case Solve\nRate', 'Avg. Days\nto Solve', 
+                        'Ovr. Crimes\nper Capita', '5-Yr Crime\nRate Change', 
+                        'Pct. Violent\nCrime'))
+```
+
+::: columns
+::: {.column width="25%"}
+::: {style="font-size: 40%"}
+```{r}
+indicators <- c('School Quality', 'School Count', 'Case Solve Rate', 
+                'Avg. Days to Solve', 'Ovr. Crimes per Capita', 
+                '5-Yr Crime Rate Change', 'Pct. Violent Crime')
+
+# district number input
+checkboxGroupInput('dists', tags$div(style = 'margin-bottom: 10px; font-weight: bold;', 'District Numbers'), 1:10, 1:10)
+
+# safety indicator input
+checkboxGroupInput('inds', tags$div(style = 'margin-bottom: 10px; font-weight: bold;', 'Safety Indicators'), indicators, indicators)
+```
+:::
+:::
+
+::: {.column width="75%"}
+```{r}
+plotOutput('killerplot', height = '500px')
+```
+:::
+:::
+
+```{r}
+#| context: server
+indicators <- c('School Quality', 'School Count', 'Case Solve Rate', 
+                'Avg. Days to Solve', 'Ovr. Crimes per Capita', 
+                '5-Yr Crime Rate Change', 'Pct. Violent Crime')
+
+output$killerplot <- renderPlot({
+  grid.newpage()
+  
+  # title
+  pushViewport(viewport(.5, .95, 1, .1))
+  grid.text('Community Safety by District', x = .5, y = .5, gp = gpar(fontsize = 20, fontface = 'bold'))
+  popViewport()
+  
+  # scales
+  pushViewport(viewport(.35, .45, .7, .9))
+  pushViewport(viewport(layout = grid.layout(5, 2)))
+  distnum = 1
+  
+  for (nrow in 1:5) {
+    for (ncol in 1:2) {
+      if (distnum %in% input$dists) {
+        pushViewport(viewport(layout.pos.row = nrow, layout.pos.col = ncol))
+        safetyvals <- sumdf[distnum, c(FALSE, indicators %in% c(input$inds)), drop = FALSE]
+        heightdif <- mean(as.numeric(safetyvals)) / 4
+        # fulcrum
+        grid.polygon(x = c(.45, .5, .55), y = c(.2, .8, .2))
+        # bar
+        grid.polygon(x = c(.15, .85), y = c(.8 + heightdif, .8 - heightdif))
+        # strings
+        grid.polygon(x = c(.15, .15), y = c(.8 + heightdif, .3 + heightdif))
+        grid.polygon(x = c(.85, .85), y = c(.8 - heightdif, .3 - heightdif))
+        # bottom bars
+        grid.polygon(x = c(.05, .25), y = c(.3 + heightdif, .3 + heightdif))
+        grid.polygon(x = c(.75, .95), y = c(.3 - heightdif, .3 - heightdif))
+        # district label
+        grid.text(paste0('Council District #', distnum), x = .5, y = .05, gp = gpar(fontsize = 10, fontface = 'bold'))
+        grid.text('Unsafe', x = .15, y = .05, gp = gpar(fontsize = 8, fontface = 'bold'))
+        grid.text('Safe', x = .85, y = .05, gp = gpar(fontsize = 8, fontface = 'bold'))
+        # balls
+        ballcols <- unlist(sumdf[11, names(safetyvals)])
+        safetycols <- data.frame(val = as.numeric(safetyvals), 
+                                 color = ballcols)
+        
+        leftballs <- abs(safetycols[safetycols$val < 0,]$val) * 3/200 + .035
+        rightballs <- safetycols[safetycols$val > 0,]$val * 3/200 + .035
+        
+        leftcols = safetycols[safetycols$val < 0,]$color
+        rightcols = safetycols[safetycols$val > 0,]$color
+      
+        if (length(leftballs) > 0) {
+          grid.circle(x = rep(c(.07, .12, .17, .22), 2)[1:length(leftballs)], 
+                      y = c(rep(.35 + heightdif, 4), 
+                            rep(.44 + heightdif, 4))[1:length(leftballs)], 
+                      r = leftballs, 
+                      gp = gpar(fill = leftcols))
+        }
+        if (length(rightballs) > 0) {
+          grid.circle(x = rep(c(.78, .83, .88, .93), 2)[1:length(rightballs)], 
+                      y = c(rep(.35 - heightdif, 4), rep(.44 - heightdif, 4))[1:length(rightballs)], 
+                      r = rightballs, 
+                      gp = gpar(fill = rightcols))
+        }
+        popViewport()
+      }
+      distnum = distnum + 1
+    }
+  }
+    
+    popViewport()
+    popViewport()
+    
+    # legend
+    pushViewport(viewport(.85, .45, .29, .4))
+    grid.rect(.5, .5, 1, 1)
+    grid.text('Safety Indicators', x = .5, y = .9, gp = gpar(fontsize = 12, fontface = 'bold'))
+    # color boxes
+    grid.rect(c(rep(.1, 4), rep(.6, 3))[1:length(safetyvals)], 
+              rep(c(.7, .5, .3, .1), 2)[1:length(safetyvals)], .1, .1, 
+              gp = gpar(fill = safetycols$color))
+    # color labels
+    grid.text(unlist(sumdf[12, names(safetyvals)]), 
+              c(rep(.33, 4), rep(.83, 3))[1:length(safetyvals)], 
+              rep(c(.7, .5, .3, .1), 2)[1:length(safetyvals)], 
+              gp = gpar(fontsize = 8))
+  }
+)
+```
