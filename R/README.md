@@ -2,6 +2,8 @@
 
 This folder contains projects I completed using my first programming language, R!
 
+**YesNoForOrAgainst.R (Fall 2024)** - survey response cleaning, coding, statistical analysis (multivariate regression), and visualization to distinguish features of ballot measure text that enhance voter comprehension, voting accuracy, and ballot usability
+
 **ConstitutionalVeneration.R (Fall 2023)** - survey response cleaning, coding, and statistical analysis (multivariate regression, factor analysis) to explore US residents' attitudes towards the Constitution
 
 **SameDayVoterRegistration.R (Fall 2023)** - difference-in-differences evaluation of same-day voter registration policy implementation using simulated voter turnout and US state demographic data 
