@@ -2,7 +2,7 @@
 <h2 id="_i-like-data-and-policy-_"><em>I like data and policy.</em></h2>
 <p>I&#39;m a senior at Rice University studying social policy analysis and data science with the goal of understanding both people and data. With a sound background in American political research and data science tools, I&#39;m motivated to maximally challenge my data skills every day in the service of public good.</p>
 <p><strong>Current Project in Progress:</strong> Building model in <strong>Python</strong> to predict support for U.S. state ballot measures, utilizing web-scraped historical data (with Selenium and Beautiful Soup) on ballot language, campaign spending, and elections rules <a href = "https://github.com/andrewdkim7/portfolio/blob/ede4ac09c50ae55d132fe835aba6ac7b22614488/Python/BallotMeasures.ipynb">(see workbook in progress here)</a></p>
-<p><strong>Last Project Completed:</strong> 
+<p><strong>Last Project Completed:</strong> Interactive <strong>R Shiny</strong> visualization of Austin, TX community safety measures by council district from massive crime report and education datasets <a href="#austin-crime-killer-plot">(jump to section)</a>
 </p>
 
 <h1 id="education">Education</h1>
@@ -39,6 +39,11 @@
 <p>● <a href="https://github.com/andrewdkim7/portfolio/blob/a05bb65137b8a8b66fde1b6f4b77d5cfbe7d76e9/Python/LetterboxdWebScraping.ipynb">Web scraped 171 webpages w/ <strong>Python</strong></a> for data on films I&#39;ve rated on the Letterboxd film-reviewing platform<br>● Performed data analysis of various datasets in <strong>SQL</strong> to uncover personal film-watching/-rating trends, comparisons to other Letterboxd users, and characteristics of highly-rated films to inform future film selection</p>
 
 <h1 id="course-projects">Course Projects</h1>
+<h3 id="austin-crime-killer-plot"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/a67c739819433d2b7395701ddb4e2cbd4be61f0b/R/AustinCrimeKillerPlot.qmd">Analysis of Crime Reports in Austin, TX (Fall 2024)</a></ins></h3>
+<p>● Developed presentation-ready visualizations of patterns and potential causes for crime in <strong>R</strong> from 2 million+ row Austin, TX crime report dataset alongside secondary datasets on city demographics and education quality with 3 teammates<br>● Individually programmed interactive "killer plot" visualization in <strong>R Shiny</strong> showcasing relative community safety strengths and balances of Austin council districts using standardized measures of school quality, case solve rate, change in crime, and violent crime rate</p>
+<p><img src="R/visuals/killerplot1.png" alt="Community Safety Killer Plot Before Interaction"><img src="R/visuals/killerplot2.png" alt="Community Safety Killer Plot After Interaction"></p>
+<p><a href="https://github.com/andrewdkim7/portfolio/blob/a67c739819433d2b7395701ddb4e2cbd4be61f0b/R/reports/AustinCrime_Report.pdf">Read the full report here!</a></p>
+
 <h3 id="-ins-evaluating-the-impact-of-same-day-voter-registration-on-2020-election-turnout-fall-2023-https-github-com-andrewdkim7-portfolio-blob-0b1638012aded0788e97b806b80f5b479bd09e67-r-samedayvoterregistration-r-ins-"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/0b1638012aded0788e97b806b80f5b479bd09e67/R/SameDayVoterRegistration.R">Evaluating the Impact of Same-Day Voter Registration on 2020 Election Turnout (Fall 2023)</a></ins></h3>
 <p>● Simulated hypothetical voter turnout data in 33 U.S. states and conducted difference-in-differences evaluation of same-day voter registration (SDR) policy on electoral turnout in <strong>R</strong><br>● Prescribed policy recommendation in favor of SDR based on simulated findings</p>
 <p><img src="R/visuals/sdrplot.png" alt="SDR Effect Plot"></p>
