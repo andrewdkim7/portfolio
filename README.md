@@ -40,7 +40,7 @@
 
 <h1 id="course-projects">Course Projects</h1>
 <h3 id="austin-crime-killer-plot"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/a67c739819433d2b7395701ddb4e2cbd4be61f0b/R/AustinCrimeKillerPlot.qmd">Analysis of Crime Reports in Austin, TX (Fall 2024)</a></ins></h3>
-<p>● Developed presentation-ready visualizations of patterns and potential causes for crime in <strong>R</strong> from 2 million+ row Austin, TX crime report dataset alongside secondary datasets on city demographics and education quality with 3 teammates<br>● Individually programmed interactive "killer plot" visualization in <strong>R Shiny</strong> showcasing relative community safety strengths and balances of Austin council districts using standardized measures of school quality, case solve rate, change in crime, and violent crime rate</p>
+<p>● Developed presentation-ready visualizations of patterns and potential causes for crime in <strong>R</strong> from 2 million+ row Austin, TX crime report dataset alongside secondary datasets on city demographics and education quality with 3 teammates<br>● Individually and manually implemented interactive "killer plot" visualization in <strong>R Shiny</strong> with grid library showcasing relative community safety strengths and balances of Austin council districts using standardized measures of school quality, case solve rate, change in crime, and violent crime rate</p>
 <p><img src="R/visuals/killerplot1.png" alt="Community Safety Killer Plot Before Interaction"><img src="R/visuals/killerplot2.png" alt="Community Safety Killer Plot After Interaction"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/a67c739819433d2b7395701ddb4e2cbd4be61f0b/R/reports/AustinCrime_Report.pdf">Read the full report here!</a></p>
 
