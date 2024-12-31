@@ -1,9 +1,10 @@
 <h1 id="hi-there-i-m-andrew-">Hi there, I&#39;m Andrew!</h1>
 <h2 id="_i-like-data-and-policy-_"><em>I like data and policy.</em></h2>
 <p>I&#39;m a senior at Rice University studying social policy analysis and data science with the goal of understanding both people and data. With a sound background in American political research and data science tools, I&#39;m motivated to maximally challenge my data skills every day in the service of public good.</p>
-<p><strong>Current Project in Progress:</strong> Building model in <strong>Python</strong> to predict support for U.S. state ballot measures, utilizing web-scraped historical data (with Selenium and Beautiful Soup) on ballot language, campaign spending, and elections rules <a href = "https://github.com/andrewdkim7/portfolio/blob/ede4ac09c50ae55d132fe835aba6ac7b22614488/Python/BallotMeasures.ipynb">(see workbook in progress here)</a></p>
-<p><strong>Last Project Completed:</strong> Interactive <strong>R Shiny</strong> visualization of Austin, TX community safety measures by council district from massive crime report and education datasets <a href="#austin-crime-killer-plot">(jump to section)</a>
-</p>
+<strong>Last Projects Completed:</strong> 
+
+<li>Gradient-boosted tree and linear regression models in <strong>Python</strong> to predict voter support for and abstentions from U.S. state ballot measures, utilizing web-scraped data (with Selenium and Beautiful Soup) on ballot language, campaign spending, demographics, etc. <a href = "https://github.com/andrewdkim7/portfolio/blob/d438403f90c91adc2a03586bba8398e974798b44/Python/BallotMeasures.ipynb">(see workbook here)</a></li>
+<li> Interactive <strong>R Shiny</strong> visualization of Austin, TX community safety measures by council district from massive crime report and education datasets <a href="#austin-crime-killer-plot">(jump to section)</a></li>
 
 <h1 id="education">Education</h1>
 <p><strong>Rice University <em>(Expected Spring 2025)</em></strong> <em>3.96 GPA</em><br>Social Policy Analysis, BA<br>Managerial Economics and Organizational Studies, BA<br>Political Science, BA<br>Data Science, Minor<br>Spanish, Minor</p>
