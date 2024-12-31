@@ -16,7 +16,7 @@
 
 <h1 id="research-projects">Research Projects</h1>
 
-<h3 id="in-pursuit-of-direct-democracy"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/d438403f90c91adc2a03586bba8398e974798b44/Python/BallotMeasures.ipynb">In Pursuit of Direct Democracy: Analyzing Predictors of U.S. State Ballot Measure Support and Roll-off (Summer-Fall 2024)</a></ins></h3>
+<h3 id="in-pursuit-of-direct-democracy"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/d438403f90c91adc2a03586bba8398e974798b44/Python/BallotMeasures.ipynb">In Pursuit of Direct Democracy: Analyzing Predictors of U.S. State Ballot Measure Support and Roll-off (Summer - Fall 2024)</a></ins></h3>
 <p>
   <li>Web scraped over 2,000 webpages in <strong>Python</strong> for data on U.S. state ballot measures from 2004-2024 (e.g., ballot measure text, campaign finance, state electoral history, voter demographics)
   <li>Cleaned and merged datasets from 9 sources, as well as engineered new predictive features (incl. via textual readability analysis)
