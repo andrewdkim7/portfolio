@@ -21,7 +21,8 @@
   <li>Web scraped over 2,000 webpages in <strong>Python</strong> for data on U.S. state ballot measures from 2004-2024 (e.g., ballot measure text, campaign finance, state electoral history, voter demographics)
   <li>Cleaned and merged datasets from 9 sources, as well as engineered new predictive features (incl. via textual readability analysis)
   <li>Built gradient-boosted trees to derive high-importance features in predicting ballot measure support and roll-off
-  <li>Ran linear regression models and identified significant effects of campaign fundraising on swaying vote share and of ballot text presentation and low-information voter turnout on ballot measure abstentions</li></p>
+  <li>Ran linear regression models and identified significant effects of campaign fundraising on swaying vote share and of ballot text presentation and low-information voter turnout on ballot measure abstentions</li>
+</p>
 <p><img src="Python/visuals/rolloffregressiontable.png" alt="Ballot Measure Roll-off Regression Table" width="40%"><img src="Python/visuals/rollofffeatureimportances.png" alt="Ballot Measure Roll-off Gradient-Boosted Tree Feature Importances" width="60%"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/a093763e8b0b52275a33801beef5458dfbb3029c/Python/reports/BallotMeasures_Report.pdf">Read the full report here!</a></p>
 
