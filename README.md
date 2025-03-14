@@ -33,7 +33,7 @@
 <p><img src="Python/visuals/sentencingmodel.png" alt="Sentencing Model Regression Table"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/d0d914f15675c3e0667fd6fec48937bac034305e/Python/reports/HarrisCountySentencingDisparities_Report.pdf">Read the full report here!</a></p>
 
-<h3><ins><a href="https://github.com/andrewdkim7/portfolio/blob/db5fefb0dbe764c7b24950026d044f661b549b79/R/YesNoForOrAgainst.R">Modeling Yes, No, For, or Against?: How Ballot Measure Wording Impacts Comprehension (Fall 2024)</a></ins></h3>
+<h3><ins><a href="https://github.com/andrewdkim7/portfolio/blob/db5fefb0dbe764c7b24950026d044f661b549b79/R/YesNoForOrAgainst.R">Yes, No, For, or Against?: How Ballot Measure Wording Impacts Comprehension (Fall 2024)</a></ins></h3>
 <p>
   <li>Partner research paper on how features of ballot measure wording influence voters' satisfaction with ballot usability and ability to vote according to their true preferences
   <li>Analyzed 430 Qualtrics survey responses in <strong>R</strong> to find that framing maintenance of policy status quo as affirmative vote significantly reduces voting accuracy without conscious perception of increased voting difficulty by voters</li></p>
