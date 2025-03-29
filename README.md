@@ -5,7 +5,7 @@
 <p><strong>Current Projects:</strong> 
 
 <li>Geospatial interpolation models (Inverse Distance Weighting, Ordinary Kriging, Regression Kriging) in <strong>Python</strong> to estimate small particle air pollution in at-risk Houston neighborhoods via map interface for publication by Houston Chronicle</li>
-<li>Web scrape automation of Harris County civil lawsuit documents in <strong>Python</strong> for <a href="https://github.com/andrewdkim7/portfolio/blob/5895bb83dbfe702ddf9d5833ad97b0b975441d4a/R/MedicalDebt.R">statistical analysis of demographic inequities in medical debt burdens</a> in <strong>R</strong> for January Advisors</li></p>
+<li><a href="https://github.com/andrewdkim7/portfolio/blob/5f09073e53ac07e8805ba5c4dd09d968a9320034/Python/MedicalDebtPetitionScraper.ipynb">Document download automation of Harris County civil lawsuit petitions</a> in <strong>Python</strong> to support <a href="https://github.com/andrewdkim7/portfolio/blob/5895bb83dbfe702ddf9d5833ad97b0b975441d4a/R/MedicalDebt.R">statistical analysis of demographic inequities in medical debt burdens</a> in <strong>R</strong> for January Advisors</li></p>
 
 <p><strong>Last Projects Completed:</strong> 
 
