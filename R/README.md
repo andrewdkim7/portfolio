@@ -2,6 +2,8 @@
 
 This folder contains projects I completed using my first programming language, R!
 
+**MedicalDebt.R (Spring 2025)** - [IN PROGRESS] descriptive statistics and visualizations of demographic inequities in medical debt claim case outcomes in Harris County, TX
+
 **AustinCrimeKillerPlot.qmd (Fall 2024)** - interactive R Shiny visualization of Austin, TX district-level safety by standardized metrics obtained from massive crime report and education quality datasets
 
 **YesNoForOrAgainst.R (Fall 2024)** - survey response cleaning, coding, statistical analysis (multivariate regression), and visualization to distinguish features of ballot measure text that enhance voter comprehension, voting accuracy, and ballot usability
