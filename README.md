@@ -1,9 +1,15 @@
 <h1 id="hi-there-i-m-andrew-">Hi there, I&#39;m Andrew!</h1>
 <h2 id="_i-like-data-and-policy-_"><em>I like data and policy.</em></h2>
 <p>I&#39;m a senior at Rice University studying social policy analysis and data science with the goal of understanding both people and data. With a sound background in American political research and data science tools, I&#39;m motivated to maximally challenge my data skills every day in the service of public good.</p>
+
+<p><strong>Current Projects:</strong> 
+
+<li>Geospatial interpolation models (Inverse Distance Weighting, Ordinary Kriging, Regression Kriging) in <strong>Python</strong> to estimate small particle air pollution in at-risk Houston neighborhoods via map interface for publication by Houston Chronicle</li>
+<li>Web scrape automation of Harris County civil lawsuit documents in <strong>Python</strong> for statistical analysis of demographic inequities in medical debt burdens in <strong>R</strong> for January Advisors</li>
+
 <p><strong>Last Projects Completed:</strong> 
 
-<li>Gradient-boosted tree and linear regression models in <strong>Python</strong> to predict voter support for and abstentions from U.S. state ballot measures, utilizing web-scraped data (with Selenium and Beautiful Soup) on ballot language, campaign spending, demographics, etc. <a href="#in-pursuit-of-direct-democracy">(jump to section)</a>
+<li>Gradient-boosted tree and linear regression models in <strong>Python</strong> to predict voter support for and abstentions from U.S. state ballot measures, utilizing web-scraped data (with Selenium and Beautiful Soup) on ballot language, campaign spending, demographics, etc. <a href="#in-pursuit-of-direct-democracy">(jump to section)</a></li>
 <li>Interactive <strong>R Shiny</strong> visualization of Austin, TX community safety measures by council district from massive crime report and education datasets <a href="#austin-crime-killer-plot">(jump to section)</a></li></p>
 
 <h1 id="education">Education</h1>
