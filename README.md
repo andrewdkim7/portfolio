@@ -5,7 +5,7 @@
 <p><strong>Current Projects:</strong> 
 
 <li>Geospatial interpolation models (Inverse Distance Weighting, Ordinary Kriging, Regression Kriging) in <strong>Python</strong> to estimate small particle air pollution in at-risk Houston neighborhoods via map interface for publication by Houston Chronicle</li>
-<li>Web scrape automation of Harris County civil lawsuit documents in <strong>Python</strong> for statistical analysis of demographic inequities in medical debt burdens in <strong>R</strong> for January Advisors</li>
+<li>Web scrape automation of Harris County civil lawsuit documents in <strong>Python</strong> for statistical analysis of demographic inequities in medical debt burdens in <strong>R</strong> for January Advisors</li></p>
 
 <p><strong>Last Projects Completed:</strong> 
 
