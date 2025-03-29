@@ -92,6 +92,5 @@
 
 <h1 id="other-work-experience">Other Work Experience</h1>
 <h3 id="trilogy-interactive-digital-production-fellow-summer-2022-">Trilogy Interactive - Digital Production Fellow (Summer 2022)</h3>
-<p>
   <li>Built emails and online landing pages in <strong>HTML/CSS</strong> for progressive political campaigns to email lists of 550,000+ users using CRMs incl. Mailchimp, EveryAction, Acoustic<br>
-  <li>Analyzed email/social media performance in Excel and drafted reports w/ content recommendations, updating existing data cleaning workflow for improved accuracy</li></p>
+  <li>Analyzed email/social media performance in Excel and drafted reports w/ content recommendations, updating existing data cleaning workflow for improved accuracy</li>
