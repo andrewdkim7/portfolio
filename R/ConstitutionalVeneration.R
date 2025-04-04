@@ -5,6 +5,7 @@ library(psych)
 library(stringr)
 library(knitr)
 library(ggplot2)
+library(scales)
 library(tidyr)
 library(forcats)
 library(grid)
@@ -160,16 +161,21 @@ con %<>%
   mutate(
     # code race/ethnicity as Boolean, including relevant "Other" responses
     white = as.numeric(str_detect(dem_race, 'White') | 
-                         str_detect(coalesce(dem_race_6_TEXT, ''), '(?i)White|Europe|Middle Eastern|Spanish')), 
+                         str_detect(coalesce(dem_race_6_TEXT, ''), 
+                                    '(?i)White|Europe|Middle Eastern|Spanish')), 
     black = as.numeric(str_detect(dem_race, 'Black') | 
-                         str_detect(coalesce(dem_race_6_TEXT, ''), '(?i)Afro|Black')), 
+                         str_detect(coalesce(dem_race_6_TEXT, ''), 
+                                    '(?i)Afro|Black')), 
     asian = as.numeric(str_detect(dem_race, 'Asian') | 
-                         str_detect(coalesce(dem_race_6_TEXT, ''), 'Pakistani')), 
+                         str_detect(coalesce(dem_race_6_TEXT, ''), 
+                                    'Pakistani')), 
     aian = as.numeric(str_detect(dem_race, 'American Indian') | 
-                        str_detect(coalesce(dem_race_6_TEXT, ''), 'Cherokee|Native American')), 
+                        str_detect(coalesce(dem_race_6_TEXT, ''), 
+                                   'Cherokee|Native American')), 
     nhpi = as.numeric(str_detect(dem_race, 'Native Hawaiian')), 
     hisp = as.numeric(dem_eth == 'Yes'), 
-    other_race_eth = as.numeric(str_detect(coalesce(dem_race_6_TEXT, ''), '(?i)Other')), 
+    other_race_eth = as.numeric(str_detect(coalesce(dem_race_6_TEXT, ''), 
+                                           '(?i)Other')), 
     # set non-binary/other genders to NA given only 10 instances
     gender = case_when(
       dem_gen == 'Male' ~ 0, 
@@ -359,10 +365,11 @@ rig_long <- con %>%
 # amendment rigidity preference response frequency comparison
 ggplot(rig_long, aes(x = response, y = prop, fill = stage)) +
   geom_bar(stat = 'identity', position = 'dodge', color = 'black') + 
-  geom_text(aes(label = round(prop, 2)), vjust = -0.5, 
+  geom_text(aes(label = percent(prop, 1)), vjust = -0.5, 
             position = position_dodge(width = 0.9), color = 'black') + 
   scale_fill_manual(values = c('#008eb2', '#d55e00'), name = 'Amendment Stage Threshold', 
                     labels = c('Congress (2/3)', 'State Legislatures (3/4')) + 
+  scale_y_continuous(labels = percent) + 
   labs(title = 'Amendment Threshold Rigidity Preferences by Amendment Stage', 
        x = 'Rigidity Preference', y = 'Proportion of Respondents') + 
   theme_minimal() + 
@@ -396,7 +403,7 @@ con %>%
   ggplot(aes(x = fct_inorder(variable), y = means)) + 
   geom_bar(stat = 'identity', fill = '#008eb2', color = 'black') + 
   geom_text(aes(label = round(means, 2)), vjust = -0.5, 
-            color = 'black') +  
+            color = 'black') + 
   labs(title = 'Average Amendment Support Scores',
        x = 'Amendment', 
        y = 'Score') +  
@@ -420,6 +427,58 @@ con %>%
   geom_bar(stat = 'identity', position = position_dodge(width = 0.9), color = 'black') +  
   geom_text(aes(label = round(means, 2)), vjust = -0.5, 
             position = position_dodge(width = 0.9), size = 3.5, color = 'black') +  
+  scale_fill_manual(values = c('0' = '#3F5EDE', '1' = '#DE453F'), 
+                    name = 'Party', labels = c('Democratic', 'Republican')) + 
+  labs(title = 'Average Amendment Support Scores by Party',
+       x = 'Amendment', 
+       y = 'Score', 
+       fill = 'Party') +  
+  theme_minimal() + 
+  theme(plot.title = element_text(face = 'bold'), 
+        axis.title.x = element_text(face = 'bold'), 
+        axis.title.y = element_text(face = 'bold'), 
+        legend.title = element_text(face = 'bold'))
+
+# amendment support proportion comparison
+con %>% 
+  reframe(variable = c('Overall', 'Flag\nDesecration\nBan', 'Abortion Ban', 
+                       'Congress\nTerm Limits', 'Gender\nEquality', 
+                       'Gun Control', 'Abolish\nElectoral\nCollege'), 
+          means = as.numeric(across(
+            c(support, amend_flag, amend_abort, amend_term, amend_gender, 
+              amend_guns, amend_elect), ~ mean(as.numeric(. > 0.5), na.rm = TRUE)
+            ))
+          ) %>% 
+  ggplot(aes(x = fct_inorder(variable), y = means)) + 
+  geom_bar(stat = 'identity', fill = '#008eb2', color = 'black') + 
+  geom_text(aes(label = percent(means, 1)), vjust = -0.5, color = 'black') +  
+  scale_y_continuous(labels = percent) + 
+  labs(title = 'Amendment Support Shares',
+       x = 'Amendment', 
+       y = 'Proportion in Support') +  
+  theme_minimal() + 
+  theme(plot.title = element_text(face = 'bold'), 
+        axis.title.x = element_text(face = 'bold'), 
+        axis.title.y = element_text(face = 'bold'))
+
+
+# amendment support proportion comparison by party
+con %>% 
+  filter(!is.na(party)) %>% 
+  mutate(party = as.factor(party)) %>% 
+  group_by(party) %>%  
+  reframe(variable = c('Overall', 'Flag\nDesecration\nBan', 'Abortion Ban', 
+                       'Congress\nTerm Limits', 'Gender\nEquality', 
+                       'Gun Control', 'Abolish\nElectoral\nCollege'), 
+          means = as.numeric(across(
+            c(support, amend_flag, amend_abort, amend_term, amend_gender, 
+              amend_guns, amend_elect), ~ mean(as.numeric(. > 0.5), na.rm = TRUE)
+          ))) %>% 
+  ggplot(aes(x = fct_inorder(variable), y = means, fill = party)) + 
+  geom_bar(stat = 'identity', position = position_dodge(width = 0.9), color = 'black') +  
+  geom_text(aes(label = percent(means, 1)), vjust = -0.5, 
+            position = position_dodge(width = 0.9), size = 3.5, color = 'black') +  
+  scale_y_continuous(labels = percent) + 
   scale_fill_manual(values = c('0' = '#3F5EDE', '1' = '#DE453F'), 
                     name = 'Party', labels = c('Democratic', 'Republican')) + 
   labs(title = 'Average Amendment Support Scores by Party',
@@ -489,6 +548,7 @@ con %>%
   theme(plot.title = element_text(face = 'bold'), 
         axis.title.x = element_text(face = 'bold'), 
         axis.title.y = element_text(face = 'bold'))
+
 
 # DEMOGRAPHICS
 # race/ethnicity
