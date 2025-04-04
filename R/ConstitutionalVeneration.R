@@ -545,7 +545,8 @@ plot_coefs(respect_model_bl, respect_model_full,
                      'Political Knowledge' = 'knowledge', 
                      'Republican' = 'party'), 
            model.names = c('Baseline', 'Full'), 
-           colors = c('#008eb2', '#d55e00'))
+           colors = c('#008eb2', '#d55e00')) + 
+  labs(title = 'Constitutional Respect OLS Coefficients')
 
 # print regression table
 stargazer(respect_model_bl, respect_model_full, type = 'text', 
@@ -579,7 +580,8 @@ plot_coefs(symbolic_model_bl, symbolic_model_full, symbolic_model_rel,
                      'Republican' = 'party', 
                      'Modern Relevance' = 'relevant'), 
            model.names = c('Baseline', 'Full', 'Modern Relevance'), 
-           colors = c('#008eb2', '#d55e00', '#ac46c1'))
+           colors = c('#008eb2', '#d55e00', '#ac46c1')) + 
+  labs(title = 'Symbolic Respect OLS Coefficients')
 
 # print regression table
 stargazer(symbolic_model_bl, symbolic_model_full, symbolic_model_rel, 
@@ -609,7 +611,8 @@ plot_coefs(relevant_model_bl, relevant_model_full,
                      'Political Knowledge' = 'knowledge', 
                      'Republican' = 'party'), 
            model.names = c('Baseline', 'Full'), 
-           colors = c('#008eb2', '#d55e00'))
+           colors = c('#008eb2', '#d55e00')) + 
+  labs(title = 'Modern Relevance OLS Coefficients')
 
 # print regression table
 stargazer(relevant_model_bl, relevant_model_full, type = 'text', 
@@ -648,7 +651,8 @@ plot_coefs(rigidity_model_bl, rigidity_model_full,
                      'Political Knowledge' = 'knowledge', 
                      'Republican' = 'party'), 
            model.names = c('Baseline', 'Full', 'Congress', 'States'), 
-           colors = c('#008eb2', '#d55e00', '#ac46c1', '#89b72d'))
+           colors = c('#008eb2', '#d55e00', '#ac46c1', '#89b72d')) + 
+  labs(title = 'Amendment Rigidity Preference OLS Coefficients')
 
 # rename regressions to fit stargazer specifications
 rig_bl <- rigidity_model_bl
@@ -696,7 +700,8 @@ plot_coefs(support_model_bl, support_model_full,
                      'Political Knowledge' = 'knowledge', 
                      'Republican' = 'party'), 
            model.names = c('Baseline', 'Full', 'Conservative', 'Liberal'), 
-           colors = c('#008eb2', '#d55e00', '#ac46c1', '#89b72d'))
+           colors = c('#008eb2', '#d55e00', '#ac46c1', '#89b72d')) +  
+  labs(title = 'Amendment Support OLS Coefficients')
 
 # zoom in on invisible confidence intervals close to 0
 plot_coefs(support_model_bl, support_model_full, 
@@ -704,7 +709,8 @@ plot_coefs(support_model_bl, support_model_full,
                      'Political Knowledge' = 'knowledge', 
                      'Republican' = 'party'), 
            model.names = c('Baseline', 'Full'), 
-           colors = c('#008eb2', '#d55e00'))
+           colors = c('#008eb2', '#d55e00')) + 
+  labs(title = 'Amendment Support Near-Zero OLS Coefficients')
 
 # rename regressions to fit stargazer specifications
 sup_bl <- support_model_bl
@@ -726,4 +732,4 @@ stargazer(sup_bl, sup_full, sup_con, sup_lib,
           dep.var.caption = '', 
           dep.var.labels = c('', '', '', ''), 
           column.labels = c('Baseline', 'Full', 'Conservative', 'Liberal'), 
-          title = 'General Amendment Support OLS Results')
+          title = 'Amendment Support OLS Results')
