@@ -28,8 +28,9 @@
   <li>Winner of Rice&#39;s <strong>2024 Hudspeth Award for Best Undergraduate Seminar Paper in Political Science</strong>
   <li>Independent honors thesis research paper on U.S. residents&#39; attitudes towards federal Constitution and its amendment
   <li>Obtained $3,000 in funding to conduct nationwide survey (N = 1,792) under mentorship of Dr. Robert Stein
-  <li>Designed/administered survey experiment in Qualtrics and cleaned/analyzed responses in <strong>R</strong> with descriptive visualization, factor analysis, and multivariate regression to identify two distinct dimensions of conventional measures of constitutional respect -- symbolic respect and perception of modern relevance</li>
-<p><img src="R/visuals/symdistribution.png" alt="Symbolic Respect Response Distribution" width="50%"><img src="R/visuals/reldistribution.png" alt="Perceived Relevance Response Distribution" width="50%"></p>
+  <li>Designed/administered survey experiment in Qualtrics and cleaned/analyzed responses in <strong>R</strong> with descriptive visualization, factor analysis, and multivariate regression to identify two distinct dimensions of conventional measures of constitutional respect -- symbolic respect and perception of modern relevance
+  <li>Identified distinct relationships between each dimension of constitutional respect and constitutional amendment process rigidity level preference, general support for constitutional amendments, political trust, and political knowledge</li>
+<p><img src="R/visuals/amendment_support.png" alt="Amendment Support Shares by Party" width="50%"><img src="R/visuals/rigidity_coefs.png" alt="Amendment Rigidity Preference Regression Coefficients" width="50%"></p>
 <p><a href="R/reports/VenerationvsRespect_Paper.pdf">Read the full report here!</a></p>
 
 <h3 id="in-pursuit-of-direct-democracy"><ins><a href="Python/BallotMeasures.ipynb">In Pursuit of Direct Democracy: Analyzing Predictors of U.S. State Ballot Measure Support and Roll-off (Summer - Fall 2024)</a></ins></h3>
