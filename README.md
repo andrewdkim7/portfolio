@@ -31,7 +31,7 @@
   <li>Designed/administered survey experiment in Qualtrics and cleaned/analyzed responses in <strong>R</strong> with descriptive visualization, factor analysis, and multivariate regression to identify two distinct dimensions of conventional measures of constitutional respect -- symbolic respect and perception of modern relevance
   <li>Identified distinct relationships between each dimension of constitutional respect and constitutional amendment process rigidity level preference, general support for constitutional amendments, political trust, and political knowledge</li>
 <p><img src="R/visuals/amendment_support.png" alt="Amendment Support Shares by Party" width="50%"><img src="R/visuals/rigidity_coefs.png" alt="Amendment Rigidity Preference Regression Coefficients" width="50%"></p>
-<p><a href="https://github.com/andrewdkim7/portfolio/blob/main/R/reports/VenerationvsRespect_Paper.pdf" target="_blank">Read the full report here!</a></p>
+<p><a href="https://github.com/andrewdkim7/portfolio/blob/main/R/reports/VenerationvsRespect_Paper.pdf" target="_blank">Read the full report here!</a> (final draft expected April/May 2025)</p>
 
 <h3 id="in-pursuit-of-direct-democracy"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/Python/BallotMeasures.ipynb" target="_blank">In Pursuit of Direct Democracy: Analyzing Predictors of U.S. State Ballot Measure Support and Roll-off (Summer - Fall 2024)</a></ins></h3>
   <li>Web scraped over 2,000 webpages in <strong>Python</strong> for data on U.S. state ballot measures from 2004-2024 (e.g., ballot measure text, campaign finance, state electoral history, voter demographics)
