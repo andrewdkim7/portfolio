@@ -481,9 +481,9 @@ con %>%
   scale_y_continuous(labels = percent) + 
   scale_fill_manual(values = c('0' = '#3F5EDE', '1' = '#DE453F'), 
                     name = 'Party', labels = c('Democratic', 'Republican')) + 
-  labs(title = 'Average Amendment Support Scores by Party',
+  labs(title = 'Amendment Support Shares by Party',
        x = 'Amendment', 
-       y = 'Score', 
+       y = 'Proportion in Support', 
        fill = 'Party') +  
   theme_minimal() + 
   theme(plot.title = element_text(face = 'bold'), 
