@@ -19,7 +19,7 @@
 <p><strong>Relevant Coursework</strong><br>Applied Machine Learning &amp; Data Science Projects • Data Science Tools &amp; Models • Machine Learning for Data Science • R for Data Science • Probability &amp; Statistics for Data Science • Applied Econometrics • Applied Research Methods in Political Science • Survey Research in American Politics</p>
 
 <h3 id="skills">Skills</h3>
-<p><strong>Technical Skills</strong><br>Python • R • SQL • Tableau • AWS • Spark • Microsoft Suite • Qualtrics • Statistics • Campaign CRMS • Report Preparation</p>
+<p><strong>Technical Skills</strong><br>Python • R • SQL • Tableau • Git • AWS • Spark • Microsoft Suite • Qualtrics • Statistics/Econometrics • CRMS</p>
 <p><strong>Technically Skills</strong><br>Spanish (C1) • Building Escape Rooms • Writing Satire</p>
 
 <h1 id="research-projects">Research Projects</h1>
