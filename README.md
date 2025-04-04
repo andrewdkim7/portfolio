@@ -4,7 +4,7 @@
 
 <p><strong>Current Projects:</strong> 
 
-<li>Administration and analysis of nationwide survey on constitutional attitudes in <strong>R</strong>, using factor analysis and multivariate regression to discern multidimensionality of constitutional respect <a href="#veneration">(jump to section)</a></li>
+<li>Administration and analysis of nationwide survey (N = 1,792) on constitutional attitudes in <strong>R</strong>, using factor analysis and multivariate regression to discern multidimensionality of constitutional respect <a href="#veneration">(jump to section)</a></li>
 <li>Geospatial interpolation models (Inverse Distance Weighting, Ordinary Kriging, Regression Kriging) in <strong>Python</strong> to estimate small particle air pollution in at-risk Houston neighborhoods via map interface for publication by Houston Chronicle</li>
 <li><a href="Python/MedicalDebtPetitionScraper.ipynb">Document download automation of Harris County civil lawsuit petitions</a> in <strong>Python</strong> to support <a href="R/MedicalDebt.R">statistical analysis of demographic inequities in medical debt burdens</a> in <strong>R</strong> for January Advisors</li></p>
 
