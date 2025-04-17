@@ -25,7 +25,7 @@
 <h1 id="research-projects">Research Projects</h1>
 
 <h3 id="veneration"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/R/ConstitutionalVeneration.R" target="_blank">Reevaluating Public Aversion to Amending the U.S. Constitution (Fall 2023 - Spring 2025)</a></ins></h3>
-  <li>Winner of Rice&#39;s <strong>2025 Best Overall Oral Presentation at Social Sciences Research Symposium</strong> and <strong>2024 Hudspeth Award for Best Undergraduate Seminar Paper in Political Science</strong>
+  <li>Winner of Rice&#39;s <strong>2025 Best Overall Oral Presentation at the Social Sciences Undergraduate Research Symposium</strong> and <strong>2024 Hudspeth Award for Best Undergraduate Seminar Paper in Political Science</strong>
   <li>Independent honors thesis research paper on U.S. residents&#39; attitudes towards federal Constitution and its amendment
   <li>Obtained $3,000 in funding to conduct nationwide survey (N = 1,792) under mentorship of Dr. Robert Stein
   <li>Designed/administered survey experiment in Qualtrics and cleaned/analyzed responses in <strong>R</strong> with descriptive visualization, factor analysis, and multivariate regression to identify two distinct dimensions of conventional measures of constitutional respect -- symbolic respect and perception of modern relevance
