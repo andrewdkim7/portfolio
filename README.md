@@ -5,7 +5,7 @@
 <p><strong>Recent Projects:</strong> 
 
 <li>Administration and analysis of nationwide survey (N = 1,792) on U.S. residents' constitutional attitudes in <strong>R</strong>, using factor analysis and multivariate regression to discern multidimensionality of constitutional respect <a href="#veneration">(jump to section)</a>
-<li>Geospatial interpolation models in <strong>Python</strong> to estimate small particle air pollution in at-risk Houston neighborhoods via map interface for publication by Houston Chronicle<a href="#air-pollution">(jump to section)</a>
+<li>Geospatial interpolation models in <strong>Python</strong> to estimate small particle air pollution in at-risk Houston neighborhoods via map interface for publication by Houston Chronicle <a href="#air-pollution">(jump to section)</a>
 <li>Gradient-boosted tree and linear regression models in <strong>Python</strong> to predict voter support for and abstentions from U.S. state ballot measures, utilizing web-scraped data (with Selenium and Beautiful Soup) on ballot language, campaign spending, demographics, etc. <a href="#in-pursuit-of-direct-democracy">(jump to section)</a>
 
 <h1 id="education">Education</h1>
