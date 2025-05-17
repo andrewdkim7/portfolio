@@ -41,7 +41,7 @@
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/Python/reports/AirPollution_Report.pdf" target="_blank">Read the full report here!</a></p>
 
 <h3 id="medical-debt"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/R/MedicalDebt.R" target="_blank">Uncovering Medical Debt in the Harris County Judical System (Fall 2024 - Spring 2025)</a></ins></h3>
-  <li><a href="https://github.com/andrewdkim7/portfolio/blob/main/Python/MedicalDebtPetitionScraper.ipynb" target="_blank">Automated document query and download process</a> for over 1,000 Harris County medical debt lawsuit petitions in <strong>Python</strong> for January Advisors
+  <li><a href="https://github.com/andrewdkim7/portfolio/blob/main/Python/MedicalDebtPetitionScraper.ipynb" target="_blank">Automated document query and download process</a> for over 1,000 civil debt lawsuit petitions in <strong>Python</strong> for January Advisors to quantify medical debt incidence in Harris County
   <li>Performed <a href="https://github.com/andrewdkim7/portfolio/blob/main/R/MedicalDebt.R" target="_blank">statistical analysis and visualization</a> of demographic inequities in medical debt burdens and judicial outcomes in <strong>R</strong> to inform research team's policy recommendations urging debt defendant support and court data transparency
 <p><img src="R/visuals/defaultjudgment.png" alt="Bar chart of debt lawsuit default judgment rates by race/ethnicity group" width="50%"><img src="R/visuals/medicaldebtmap.png" alt="Map of medical debt lawsuit case concentrations in Harris County" width="50%"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/R/reports/MedicalDebt_Report.pdf" target="_blank">Read the full report here!</a></p>
