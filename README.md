@@ -1,37 +1,43 @@
 <h1 id="hi-there-i-m-andrew-">Hi there, I&#39;m Andrew!</h1>
 <h2 id="_i-like-data-and-policy-_"><em>I like data and policy.</em></h2>
-<p>I&#39;m a senior at Rice University studying social policy analysis and data science with the goal of understanding both people and data. With a sound background in American political research and data science tools, I&#39;m motivated to maximally challenge my data skills every day in the service of public good.</p>
+<p>I&#39;m a recent graduate of Rice University, where I studied social policy analysis and data science. Drawing on my experience in quantiative policy research and leading community initiatives, I&#39;m keen to apply my analytical skills to advance democratic, equity-driven policymaking.</p>
 
-<p><strong>Current Projects:</strong> 
+<p><strong>Recent Projects Completed:</strong> 
 
-<li>Administration and analysis of nationwide survey (N = 1,792) on constitutional attitudes in <strong>R</strong>, using factor analysis and multivariate regression to discern multidimensionality of constitutional respect <a href="#veneration">(jump to section)</a></li>
+<li>Administration and analysis of nationwide survey (N = 1,792) on U.S. residents' constitutional attitudes in <strong>R</strong>, using factor analysis and multivariate regression to discern multidimensionality of constitutional respect <a href="#veneration">(jump to section)</a></li>
 <li>Geospatial interpolation models (Inverse Distance Weighting, Ordinary Kriging, Regression Kriging) in <strong>Python</strong> to estimate small particle air pollution in at-risk Houston neighborhoods via map interface for publication by Houston Chronicle</li>
-<li><a href="https://github.com/andrewdkim7/portfolio/blob/main/Python/MedicalDebtPetitionScraper.ipynb" target="_blank">Document download automation of Harris County civil lawsuit petitions</a> in <strong>Python</strong> to support <a href="https://github.com/andrewdkim7/portfolio/blob/main/R/MedicalDebt.R" target="_blank">statistical analysis of demographic inequities in medical debt burdens</a> in <strong>R</strong> for January Advisors</li></p>
-
-
-<p><strong>Last Projects Completed:</strong> 
-
 <li>Gradient-boosted tree and linear regression models in <strong>Python</strong> to predict voter support for and abstentions from U.S. state ballot measures, utilizing web-scraped data (with Selenium and Beautiful Soup) on ballot language, campaign spending, demographics, etc. <a href="#in-pursuit-of-direct-democracy">(jump to section)</a></li>
-<li>Interactive <strong>R Shiny</strong> visualization of Austin, TX community safety measures by council district from massive crime report and education datasets <a href="#austin-crime-killer-plot">(jump to section)</a></li></p>
 
 <h1 id="education">Education</h1>
-<p><strong>Rice University <em>(Expected Spring 2025)</em></strong> <em>3.96 GPA</em><br>Social Policy Analysis, BA<br>Managerial Economics and Organizational Studies, BA<br>Political Science, BA<br>Data Science, Minor<br>Spanish, Minor</p>
+<p><strong>Rice University <em>(2021 - 2025)</em></strong> <em>3.95 GPA</em><br>Social Policy Analysis, BA<br>Managerial Economics and Organizational Studies, BA<br>Political Science, BA<br>Data Science, Minor<br>Spanish, Minor</p>
 <p><strong>Relevant Coursework</strong><br>Applied Machine Learning &amp; Data Science Projects • Data Science Tools &amp; Models • Machine Learning for Data Science • R for Data Science • Probability &amp; Statistics for Data Science • Applied Econometrics • Applied Research Methods in Political Science • Survey Research in American Politics</p>
 
 <h3 id="skills">Skills</h3>
-<p><strong>Technical Skills</strong><br>Python • R • SQL • Tableau • Git • AWS • Spark • Microsoft Suite • Qualtrics • Statistics/Econometrics • CRMS</p>
+<p><strong>Technical Skills</strong><br>Python • R • SQL • Tableau • Git • AWS • Microsoft Suite • Qualtrics • HTML/CSS • Statistics/Econometrics • CRMs</p>
 <p><strong>Technically Skills</strong><br>Spanish (C1) • Building Escape Rooms • Writing Satire</p>
 
 <h1 id="research-projects">Research Projects</h1>
 
 <h3 id="veneration"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/R/ConstitutionalVeneration.R" target="_blank">Reevaluating Public Aversion to Amending the U.S. Constitution (Fall 2023 - Spring 2025)</a></ins></h3>
-  <li>Winner of Rice&#39;s <strong>2025 Best Overall Oral Presentation at the Social Sciences Undergraduate Research Symposium</strong> and <strong>2024 Hudspeth Award for Best Undergraduate Seminar Paper in Political Science</strong>
-  <li>Independent honors thesis research paper on U.S. residents&#39; attitudes towards federal Constitution and its amendment
-  <li>Obtained $3,000 in funding to conduct nationwide survey (N = 1,792) under mentorship of Dr. Robert Stein
-  <li>Designed/administered survey experiment in Qualtrics and cleaned/analyzed responses in <strong>R</strong> with descriptive visualization, factor analysis, and multivariate regression to identify two distinct dimensions of conventional measures of constitutional respect -- symbolic respect and perception of modern relevance
-  <li>Identified distinct relationships between each dimension of constitutional respect and constitutional amendment process rigidity level preference, general support for constitutional amendments, political trust, and political knowledge</li>
+  <li>Recipient of:
+    <ul>
+      <li>2025 Best Overall Oral Presentation at Rice University's Social Sciences Undergraduate Research Symposium
+      <li>2025 Ambler Award for Best Honors Thesis in Political Science
+      <li>2024 Hudspeth Award for Best Undergraduate Seminar Paper in Political Science
+    </ul>
+  <li>Independent honors thesis research paper on public attitudes towards federal Constitution and its amendment
+  <li>Obtained $3,000 in funding to design and administer nationwide Qualtrics survey of 1,792 U.S. residents
+  <li>Cleaned/analyzed responses in <strong>R</strong> with descriptive visualization, factor analysis, and multivariate regression to identify two distinct dimensions of conventional measures of constitutional respect -- symbolic respect and perception of modern relevance
+  <li>Identified distinct statistical relationships between each dimension of constitutional respect and constitutional amendment process rigidity level preference, general support for constitutional amendments, political trust, and political knowledge
+  <li>Pursuing peer-reviewed journal publication in collaboration with Dr. Robert Stein and Dr. Joseph Cozza
 <p><img src="R/visuals/amendment_support.png" alt="Amendment Support Shares by Party"><img src="R/visuals/rigidity_coefs.png" alt="Amendment Rigidity Preference Regression Coefficients"></p>
-<p><a href="https://github.com/andrewdkim7/portfolio/blob/main/R/reports/VenerationvsRespect_Paper.pdf" target="_blank">Read the full report here!</a> (final draft expected April/May 2025)</p>
+<p><a href="https://github.com/andrewdkim7/portfolio/blob/main/R/reports/VenerationvsRespect_Paper.pdf" target="_blank">Read the full report here!</a></p>
+
+<h3 id="medical-debt"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/R/MedicalDebt.R" target="_blank">A (Fall 2024 - Spring 2025)</a></ins></h3>
+  <li><a href="https://github.com/andrewdkim7/portfolio/blob/main/Python/MedicalDebtPetitionScraper.ipynb" target="_blank">Automated document query and download process</a> for over 1,000 Harris County medical debt lawsuit petitions in <strong>Python</strong> for January Advisors
+  <li>Performed <a href="https://github.com/andrewdkim7/portfolio/blob/main/R/MedicalDebt.R" target="_blank">statistical analysis and visualization</a> of demographic inequities in medical debt burdens and judicial outcomes in <strong>R</strong> to inform research team's policy recommendations urging debt defendant support and court data transparency
+<p><img src="R/visuals/defaultjudgment.png" alt="Bar chart of debt lawsuit default judgment rates by race/ethnicity group" width="50%"><img src="R/visuals/medicaldebtmap.png" alt="Map of medical debt lawsuit case concentrations in Harris County" width="50%"></p>
+<p><a href="https://github.com/andrewdkim7/portfolio/blob/main/R/reports/MedicalDebt_Report.pdf" target="_blank">Read the full report here!</a></p>
 
 <h3 id="in-pursuit-of-direct-democracy"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/Python/BallotMeasures.ipynb" target="_blank">In Pursuit of Direct Democracy: Analyzing Predictors of U.S. State Ballot Measure Support and Roll-off (Summer - Fall 2024)</a></ins></h3>
   <li>Web scraped over 2,000 webpages in <strong>Python</strong> for data on U.S. state ballot measures from 2004-2024 (e.g., ballot measure text, campaign finance, state electoral history, voter demographics)
