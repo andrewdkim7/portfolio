@@ -2,11 +2,11 @@
 <h2 id="_i-like-data-and-policy-_"><em>I like data and policy.</em></h2>
 <p>I&#39;m a recent graduate of Rice University, where I studied social policy analysis and data science. Drawing on my experience in quantiative policy research and leading community initiatives, I&#39;m keen to apply my analytical skills to advance democratic, equity-driven policymaking.</p>
 
-<p><strong>Recent Projects Completed:</strong> 
+<p><strong>Recent Projects:</strong> 
 
-<li>Administration and analysis of nationwide survey (N = 1,792) on U.S. residents' constitutional attitudes in <strong>R</strong>, using factor analysis and multivariate regression to discern multidimensionality of constitutional respect <a href="#veneration">(jump to section)</a></li>
-<li>Geospatial interpolation models (Inverse Distance Weighting, Ordinary Kriging, Regression Kriging) in <strong>Python</strong> to estimate small particle air pollution in at-risk Houston neighborhoods via map interface for publication by Houston Chronicle</li>
-<li>Gradient-boosted tree and linear regression models in <strong>Python</strong> to predict voter support for and abstentions from U.S. state ballot measures, utilizing web-scraped data (with Selenium and Beautiful Soup) on ballot language, campaign spending, demographics, etc. <a href="#in-pursuit-of-direct-democracy">(jump to section)</a></li>
+<li>Administration and analysis of nationwide survey (N = 1,792) on U.S. residents' constitutional attitudes in <strong>R</strong>, using factor analysis and multivariate regression to discern multidimensionality of constitutional respect <a href="#veneration">(jump to section)</a>
+<li>Geospatial interpolation models in <strong>Python</strong> to estimate small particle air pollution in at-risk Houston neighborhoods via map interface for publication by Houston Chronicle<a href="#air-pollution">(jump to section)</a>
+<li>Gradient-boosted tree and linear regression models in <strong>Python</strong> to predict voter support for and abstentions from U.S. state ballot measures, utilizing web-scraped data (with Selenium and Beautiful Soup) on ballot language, campaign spending, demographics, etc. <a href="#in-pursuit-of-direct-democracy">(jump to section)</a>
 
 <h1 id="education">Education</h1>
 <p><strong>Rice University <em>(2021 - 2025)</em></strong> <em>3.95 GPA</em><br>Social Policy Analysis, BA<br>Managerial Economics and Organizational Studies, BA<br>Political Science, BA<br>Data Science, Minor<br>Spanish, Minor</p>
@@ -18,7 +18,7 @@
 
 <h1 id="research-projects">Research Projects</h1>
 
-<h3 id="veneration"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/R/ConstitutionalVeneration.R" target="_blank">Reevaluating Public Aversion to Amending the U.S. Constitution (Fall 2023 - Spring 2025)</a></ins></h3>
+<h3 id="veneration"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/R/ConstitutionalVeneration.R" target="_blank">Veneration vs. Respect: Reevaluating Public Aversion to Amending the U.S. Constitution (Fall 2023 - Present)</a></ins></h3>
   <li>Recipient of:
     <ul>
       <li>2025 Best Overall Oral Presentation at Rice University's Social Sciences Undergraduate Research Symposium
@@ -30,10 +30,17 @@
   <li>Cleaned/analyzed responses in <strong>R</strong> with descriptive visualization, factor analysis, and multivariate regression to identify two distinct dimensions of conventional measures of constitutional respect -- symbolic respect and perception of modern relevance
   <li>Identified distinct statistical relationships between each dimension of constitutional respect and constitutional amendment process rigidity level preference, general support for constitutional amendments, political trust, and political knowledge
   <li>Pursuing peer-reviewed journal publication in collaboration with Dr. Robert Stein and Dr. Joseph Cozza
-<p><img src="R/visuals/amendment_support.png" alt="Amendment Support Shares by Party"><img src="R/visuals/rigidity_coefs.png" alt="Amendment Rigidity Preference Regression Coefficients"></p>
+<p><img src="R/visuals/amendment_support.png" alt="Amendment Support Shares by Party" width=50%><img src="R/visuals/rigidity_coefs.png" alt="Amendment Rigidity Preference Regression Coefficients" width=50%></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/R/reports/VenerationvsRespect_Paper.pdf" target="_blank">Read the full report here!</a></p>
 
-<h3 id="medical-debt"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/R/MedicalDebt.R" target="_blank">A (Fall 2024 - Spring 2025)</a></ins></h3>
+<h3 id="air-pollution"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/Python/reports/AirPollution_Report.pdf" target="_blank">Filling in the Map: Spatial Interpolation of Small Particle Air Pollution in Houston from Multi-Source Air Quality Data (Spring 2025)</a></ins></h3>
+  <li>Synthesized Houston air pollution data from governmental and community-based sources to develop geospatial interpolation models (Inverse Distance Weighting, Ordinary Kriging, and Regression Kriging) mapping estimated PM2.5 pollutant concentration levels in locations lacking sensors in <strong>Python</strong>
+  <li>Wrangled and interpolated auxiliary datasets to analyze statistical effects of weather, traffic, industrial emissions, and land use on air pollution, concluding high-traffic, high-development, and low-income neighborhoods are at higher risk
+  <li>Produced <a href="https://dustbusters.streamlit.app" target="_blank">demo interface</a> enabling users to determine air pollution at own ZIP code and identity pollution hotspots across Houston, supporting development of online tool to be published by Houston Chronicle
+<p><img src="Python/visuals/pm25_map.png" alt="Sample map of estimated PM2.5 air pollution concentration across Houston" width="40%"><img src="Python/visuals/pm25_pipeline.png" alt="Data science pipeline of PM2.5 interpolation project" width="60%"></p>
+<p><a href="https://github.com/andrewdkim7/portfolio/blob/main/Python/reports/AirPollution_Report.pdf" target="_blank">Read the full report here!</a></p>
+
+<h3 id="medical-debt"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/R/MedicalDebt.R" target="_blank">Uncovering Medical Debt in the Harris County Judical System (Fall 2024 - Spring 2025)</a></ins></h3>
   <li><a href="https://github.com/andrewdkim7/portfolio/blob/main/Python/MedicalDebtPetitionScraper.ipynb" target="_blank">Automated document query and download process</a> for over 1,000 Harris County medical debt lawsuit petitions in <strong>Python</strong> for January Advisors
   <li>Performed <a href="https://github.com/andrewdkim7/portfolio/blob/main/R/MedicalDebt.R" target="_blank">statistical analysis and visualization</a> of demographic inequities in medical debt burdens and judicial outcomes in <strong>R</strong> to inform research team's policy recommendations urging debt defendant support and court data transparency
 <p><img src="R/visuals/defaultjudgment.png" alt="Bar chart of debt lawsuit default judgment rates by race/ethnicity group" width="50%"><img src="R/visuals/medicaldebtmap.png" alt="Map of medical debt lawsuit case concentrations in Harris County" width="50%"></p>
