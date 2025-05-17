@@ -4,7 +4,7 @@ This folder contains projects I completed using my first programming language, R
 
 **ConstitutionalVeneration.R (Fall 2023, Spring 2025)** - survey response cleaning, coding, statistical analysis (factor analysis, multivariate regression), and visualization to explore US residents' attitudes towards the Constitution
 
-**MedicalDebt.R (Spring 2025)** - [IN PROGRESS] descriptive statistics and visualizations of demographic inequities in medical debt claim case outcomes in Harris County, TX
+**MedicalDebt.R (Spring 2025)** - descriptive statistics and visualizations of demographic inequities in medical debt claim case outcomes in Harris County, TX
 
 **AustinCrimeKillerPlot.qmd (Fall 2024)** - interactive R Shiny visualization of Austin, TX district-level safety by standardized metrics obtained from massive crime report and education quality datasets
 
