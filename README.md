@@ -9,14 +9,14 @@
 <li>Gradient-boosted tree and linear regression models in <strong>Python</strong> to predict voter support for and abstentions from U.S. state ballot measures, utilizing web-scraped data (with Selenium and Beautiful Soup) on ballot language, campaign spending, demographics, etc. <a href="#in-pursuit-of-direct-democracy">(jump to section)</a>
 
 <h1 id="education">Education</h1>
-<p><strong>Rice University <em>(2021 - 2025)</em></strong> <em>3.95 GPA</em><br>Social Policy Analysis, BA<br>Managerial Economics and Organizational Studies, BA<br>Political Science, BA<br>Data Science, Minor<br>Spanish, Minor</p>
+<p><strong>Rice University <em>(2021 - 2025)</em></strong> <em>3.95 GPA (cum laude)</em><br>Social Policy Analysis, BA<br>Managerial Economics and Organizational Studies, BA<br>Political Science, BA<br>Data Science, Minor<br>Spanish, Minor</p>
 <p><strong>Relevant Coursework</strong><br>Applied Machine Learning &amp; Data Science Projects • Data Science Tools &amp; Models • Machine Learning for Data Science • R for Data Science • Probability &amp; Statistics for Data Science • Applied Econometrics • Applied Research Methods in Political Science • Survey Research in American Politics</p>
 
 <h3 id="skills">Skills</h3>
 <p><strong>Technical Skills</strong><br>Python • R • SQL • Tableau • Git • AWS • Microsoft Suite • Qualtrics • HTML/CSS • Statistics/Econometrics • CRMs</p>
 <p><strong>Technically Skills</strong><br>Spanish (C1) • Building Escape Rooms • Writing Satire</p>
 
-<h1 id="research-projects">Research Projects</h1>
+<h1 id="democracy">Democracy and Civic Representation Projects</h1>
 
 <h3 id="veneration"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/ConstitutionalVeneration.R" target="_blank">Veneration vs. Respect: Reevaluating Public Aversion to Amending the U.S. Constitution (Fall 2023 - Present)</a></ins></h3>
   <li>Recipient of:
@@ -33,19 +33,6 @@
 <p><img src="DemocracyAndCivicRepresentation/visuals/amendment_support.png" alt="Amendment Support Shares by Party" width=50%><img src="DemocracyAndCivicRepresentation/visuals/rigidity_coefs.png" alt="Amendment Rigidity Preference Regression Coefficients" width=50%></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/reports/VenerationvsRespect_Paper.pdf" target="_blank">Read the full report here!</a></p>
 
-<h3 id="air-pollution"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/reports/AirPollution_Report.pdf" target="_blank">Filling in the Map: Spatial Interpolation of Small Particle Air Pollution in Houston from Multi-Source Air Quality Data (Spring 2025)</a></ins></h3>
-  <li>With data team, synthesized Houston air pollution data from governmental and community-based sources to develop geospatial interpolation models (Inverse Distance Weighting, Ordinary Kriging, and Regression Kriging) mapping estimated PM2.5 pollutant concentration levels in locations lacking sensors in <strong>Python</strong>
-  <li>Wrangled and interpolated auxiliary datasets to analyze statistical effects of weather, traffic, industrial emissions, and land use on air pollution, concluding high-traffic, high-development, and low-income neighborhoods are at higher risk
-  <li>Produced <a href="https://dustbusters.streamlit.app" target="_blank">demo interface</a> enabling users to determine air pollution at own ZIP code and identity pollution hotspots across Houston, supporting development of online tool to be published by Houston Chronicle
-<p><img src="UrbanJusticeHealthAndEquity/visuals/pm25_map.png" alt="Sample map of estimated PM2.5 air pollution concentration across Houston" width="40%"><img src="UrbanJusticeHealthAndEquity/visuals/pm25_pipeline.png" alt="Data science pipeline of PM2.5 interpolation project" width="60%"></p>
-<p><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/reports/AirPollution_Report.pdf" target="_blank">Read the full report here!</a></p>
-
-<h3 id="medical-debt"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/MedicalDebt.R" target="_blank">Uncovering Medical Debt in the Harris County Judical System (Fall 2024 - Spring 2025)</a></ins></h3>
-  <li><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/MedicalDebtPetitionScraper.ipynb" target="_blank">Automated document query and download process</a> for over 1,000 civil debt lawsuit petitions in <strong>Python</strong> for January Advisors to quantify medical debt incidence in Harris County
-  <li>Performed <a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/MedicalDebt.R" target="_blank">statistical analysis and visualization</a> of demographic inequities in medical debt burdens and judicial outcomes in <strong>R</strong> to inform research team's policy recommendations urging debt defendant support and court data transparency
-<p><img src="UrbanJusticeHealthAndEquity/visuals/defaultjudgment.png" alt="Bar chart of debt lawsuit default judgment rates by race/ethnicity group" width="50%"><img src="UrbanJusticeHealthAndEquity/visuals/medicaldebtmap.png" alt="Map of medical debt lawsuit case concentrations in Harris County" width="50%"></p>
-<p><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/reports/MedicalDebt_Report.pdf" target="_blank">Read the full report here!</a></p>
-
 <h3 id="in-pursuit-of-direct-democracy"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/BallotMeasures.ipynb" target="_blank">In Pursuit of Direct Democracy: Analyzing Predictors of U.S. State Ballot Measure Support and Roll-off (Summer - Fall 2024)</a></ins></h3>
   <li>Web scraped over 2,000 webpages in <strong>Python</strong> for data on U.S. state ballot measures from 2004-2024 (e.g., ballot measure text, campaign finance, state electoral history, voter demographics)
   <li>Cleaned and merged datasets from 9 sources, as well as engineered new predictive features (incl. via textual readability analysis)
@@ -53,12 +40,6 @@
   <li>Ran linear regression models and identified significant effects of campaign fundraising on swaying vote share and of ballot text presentation and low-information voter turnout on ballot measure abstentions</li>
 <p><img src="DemocracyAndCivicRepresentation/visuals/rolloffregressiontable.png" alt="Ballot Measure Roll-off Regression Table" width="40%"><img src="DemocracyAndCivicRepresentation/visuals/rollofffeatureimportances.png" alt="Ballot Measure Roll-off Gradient-Boosted Tree Feature Importances" width="60%"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/reports/BallotMeasures_Report.pdf" target="_blank">Read the full report here!</a></p>
-
-<h3 id="criminal-sentencing"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/HarrisCountySentencingDisparities.ipynb" target="_blank">Modeling Criminal Sentencing Disparities in Harris County (Fall 2024)</a></ins></h3>
-  <li>Cleaned Harris County criminal sentencing dataset with over 3 million rows and engineered 9 new features with partner in <strong>Python</strong>
-  <li>Built linear regression models to predict sentencing harshness based on charge-related and defendant demographic variables, concluding significant disparities across race, gender, and citizenship status</li>
-<p><img src="UrbanJusticeHealthAndEquity/visuals/sentencingmodel.png" alt="Sentencing Model Regression Table"></p>
-<p><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/reports/HarrisCountySentencingDisparities_Report.pdf" target="_blank">Read the full report here!</a></p>
 
 <h3 id="yes-no-for-against"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/YesNoForOrAgainst.R" target="_blank">Yes, No, For, or Against?: How Ballot Measure Wording Impacts Comprehension (Fall 2024)</a></ins></h3>
   <li>Partner research paper on how features of ballot measure wording influence voters' satisfaction with ballot usability and ability to vote according to their true preferences
@@ -70,19 +51,6 @@
   <li>Cleaned responses and conducted statistical tests (with poster-ready visualizations) in <strong>R</strong> to evaluate effect of subject of various biographical lies on perceived electability</li>
 <p><img src="DemocracyAndCivicRepresentation/visuals/lieeffects.png" alt="Biographical Lie Effects"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/reports/BiographicalElectability_Paper.pdf" target="_blank">Read the full report here!</a></p>
-
-<h1 id="personal-projects">Personal Projects</h1>
-<h3 id="letterboxd"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/PersonalProjects/LetterboxdSQLAnalysis.ipynb" target="_blank">Letterboxd Rating SQL Analysis</a></ins></h3>
-  <li><a href="PersonalProjects/LetterboxdWebScraping.ipynb" target="_blank">Web scraped 171 webpages w/ <strong>Python</strong></a> for data on films I&#39;ve rated on the Letterboxd film-reviewing platform
-  <li>Performed data analysis of various datasets in <strong>SQL</strong> to uncover personal film-watching/-rating trends, comparisons to other Letterboxd users, and characteristics of highly-rated films to inform future film selection</li>
-
-<h1 id="course-projects">Course Projects</h1>
-
-<h3 id="austin-crime-killer-plot"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/AustinCrimeKillerPlot.qmd" target="_blank">Analysis of Crime Reports in Austin, TX (Fall 2024)</a></ins></h3>
-  <li>Developed presentation-ready visualizations of patterns and potential causes for crime in <strong>R</strong> from 2 million+ row Austin, TX crime report dataset alongside secondary datasets on city demographics and education quality with 3 teammates
-  <li>Individually and manually implemented interactive "killer plot" visualization in <strong>R Shiny</strong> with grid library showcasing relative community safety strengths and balances of Austin council districts using standardized measures of school quality, case solve rate, change in crime, and violent crime rate</li>
-<p><img src="UrbanJusticeHealthAndEquity/visuals/killerplot1.png" alt="Community Safety Killer Plot Before Interaction"><img src="UrbanJusticeHealthAndEquity/visuals/killerplot2.png" alt="Community Safety Killer Plot After Interaction"></p>
-<p><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/reports/AustinCrime_Report.pdf" target="_blank">Read the full report here!</a></p>
 
 <h3 id="sdr"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/SameDayVoterRegistration.R" target="_blank">Evaluating the Impact of Same-Day Voter Registration on 2020 Election Turnout (Fall 2023)</a></ins></h3>
   <li>Simulated hypothetical voter turnout data in 33 U.S. states and conducted difference-in-differences evaluation of same-day voter registration (SDR) policy on electoral turnout in <strong>R</strong>
@@ -96,7 +64,42 @@
 <p><img src="DemocracyAndCivicRepresentation/visuals/bipartisan.png" alt="Bipartisanship Plots"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/reports/SenateBipartisanship_Writeup.pdf" target="_blank">Read the full write-up here!</a></p>
 
-<h1 id="other-work-experience">Other Work Experience</h1>
+<h1 id="urban">Urban Justice, Health, and Equity Projects</h1>
+
+<h3 id="air-pollution"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/reports/AirPollution_Report.pdf" target="_blank">Filling in the Map: Spatial Interpolation of Small Particle Air Pollution in Houston from Multi-Source Air Quality Data (Spring 2025)</a></ins></h3>
+  <li>With data team, synthesized Houston air pollution data from governmental and community-based sources to develop geospatial interpolation models (Inverse Distance Weighting, Ordinary Kriging, and Regression Kriging) mapping estimated PM2.5 pollutant concentration levels in locations lacking sensors in <strong>Python</strong>
+  <li>Wrangled and interpolated auxiliary datasets to analyze statistical effects of weather, traffic, industrial emissions, and land use on air pollution, concluding high-traffic, high-development, and low-income neighborhoods are at higher risk
+  <li>Produced <a href="https://dustbusters.streamlit.app" target="_blank">demo interface</a> enabling users to determine air pollution at own ZIP code and identity pollution hotspots across Houston, supporting development of online tool to be published by Houston Chronicle
+<p><img src="UrbanJusticeHealthAndEquity/visuals/pm25_map.png" alt="Sample map of estimated PM2.5 air pollution concentration across Houston" width="40%"><img src="UrbanJusticeHealthAndEquity/visuals/pm25_pipeline.png" alt="Data science pipeline of PM2.5 interpolation project" width="60%"></p>
+<p><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/reports/AirPollution_Report.pdf" target="_blank">Read the full report here!</a></p>
+
+<h3 id="medical-debt"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/MedicalDebt.R" target="_blank">Uncovering Medical Debt in the Harris County Judical System (Fall 2024 - Spring 2025)</a></ins></h3>
+  <li><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/MedicalDebtPetitionScraper.ipynb" target="_blank">Automated document query and download process</a> for over 1,000 civil debt lawsuit petitions in <strong>Python</strong> for January Advisors to quantify medical debt incidence in Harris County
+  <li>Performed <a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/MedicalDebt.R" target="_blank">statistical analysis and visualization</a> of demographic inequities in medical debt burdens and judicial outcomes in <strong>R</strong> to inform research team's policy recommendations urging debt defendant support and court data transparency
+<p><img src="UrbanJusticeHealthAndEquity/visuals/defaultjudgment.png" alt="Bar chart of debt lawsuit default judgment rates by race/ethnicity group" width="50%"><img src="UrbanJusticeHealthAndEquity/visuals/medicaldebtmap.png" alt="Map of medical debt lawsuit case concentrations in Harris County" width="50%"></p>
+<p><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/reports/MedicalDebt_Report.pdf" target="_blank">Read the full report here!</a></p>
+
+<h3 id="austin-crime-killer-plot"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/AustinCrimeKillerPlot.qmd" target="_blank">Analysis of Crime Reports in Austin, TX (Fall 2024)</a></ins></h3>
+  <li>Developed presentation-ready visualizations of patterns and potential causes for crime in <strong>R</strong> from 2 million+ row Austin, TX crime report dataset alongside secondary datasets on city demographics and education quality with 3 teammates
+  <li>Individually and manually implemented interactive "killer plot" visualization in <strong>R Shiny</strong> with grid library showcasing relative community safety strengths and balances of Austin council districts using standardized measures of school quality, case solve rate, change in crime, and violent crime rate</li>
+<p><img src="UrbanJusticeHealthAndEquity/visuals/killerplot1.png" alt="Community Safety Killer Plot Before Interaction"><img src="UrbanJusticeHealthAndEquity/visuals/killerplot2.png" alt="Community Safety Killer Plot After Interaction"></p>
+<p><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/reports/AustinCrime_Report.pdf" target="_blank">Read the full report here!</a></p>
+
+<h3 id="criminal-sentencing"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/HarrisCountySentencingDisparities.ipynb" target="_blank">Modeling Criminal Sentencing Disparities in Harris County (Fall 2024)</a></ins></h3>
+  <li>Cleaned Harris County criminal sentencing dataset with over 3 million rows and engineered 9 new features with partner in <strong>Python</strong>
+  <li>Built linear regression models to predict sentencing harshness based on charge-related and defendant demographic variables, concluding significant disparities across race, gender, and citizenship status</li>
+<p><img src="UrbanJusticeHealthAndEquity/visuals/sentencingmodel.png" alt="Sentencing Model Regression Table"></p>
+<p><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/reports/HarrisCountySentencingDisparities_Report.pdf" target="_blank">Read the full report here!</a></p>
+
+<h1 id="personal-projects">Personal Projects</h1>
+
+<h1 id="personal-projects">Personal Projects</h1>
+<h3 id="letterboxd"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/PersonalProjects/LetterboxdSQLAnalysis.ipynb" target="_blank">Letterboxd Rating SQL Analysis</a></ins></h3>
+  <li><a href="PersonalProjects/LetterboxdWebScraping.ipynb" target="_blank">Web scraped 171 webpages w/ <strong>Python</strong></a> for data on films I&#39;ve rated on the Letterboxd film-reviewing platform
+  <li>Performed data analysis of various datasets in <strong>SQL</strong> to uncover personal film-watching/-rating trends, comparisons to other Letterboxd users, and characteristics of highly-rated films to inform future film selection</li>
+
+<h1 id="work">Other Work Experience</h1>
+
 <h3 id="trilogy">Trilogy Interactive - Digital Production Fellow (Summer 2022)</h3>
   <li>Built emails and online landing pages in <strong>HTML/CSS</strong> for progressive political campaigns to email lists of 550,000+ users using CRMs incl. Mailchimp, EveryAction, Acoustic<br>
   <li>Analyzed email/social media performance in Excel and drafted reports w/ content recommendations, updating existing data cleaning workflow for improved accuracy</li>
