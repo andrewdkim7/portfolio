@@ -37,10 +37,10 @@
 <h3 id="veneration"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/ConstitutionalVeneration.R" target="_blank">Veneration vs. Respect: Reevaluating Public Aversion to Amending the U.S. Constitution (Fall 2023 - Present)</a></ins></h3>
   <li>Recipient of:
     <ul>
-      <li>2025 Best Overall Oral Presentation at Rice University's Social Sciences Undergraduate Research Symposium
-      <li>2025 Ambler Award for Best Honors Thesis in Political Science
-      <li>2024 Hudspeth Award for Best Undergraduate Seminar Paper in Political Science
-    </ul>
+      <li>2025 Best Overall Oral Presentation at Rice University's Social Sciences Undergraduate Research Symposium</li>
+      <li>2025 Ambler Award for Best Honors Thesis in Political Science</li>
+      <li>2024 Hudspeth Award for Best Undergraduate Seminar Paper in Political Science</li>
+    </ul></li>
   <li>Independent honors thesis research paper on public attitudes towards federal Constitution and its amendment
   <li>Obtained $3,000 in funding to design and administer nationwide Qualtrics survey of 1,792 U.S. residents
   <li>Cleaned/analyzed responses in <strong>R</strong> with descriptive visualization, factor analysis, and multivariate regression to identify two distinct dimensions of conventional measures of constitutional respect -- symbolic respect and perception of modern relevance
@@ -108,10 +108,8 @@
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/reports/HarrisCountySentencingDisparities_Report.pdf" target="_blank">Read the full report here!</a></p>
 
 <h1 id="personal-projects">Personal Projects</h1>
-
-<h1 id="personal-projects">Personal Projects</h1>
 <h3 id="letterboxd"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/PersonalProjects/LetterboxdSQLAnalysis.ipynb" target="_blank">Letterboxd Rating SQL Analysis</a></ins></h3>
-  <li><a href="PersonalProjects/LetterboxdWebScraping.ipynb" target="_blank">Web scraped 171 webpages w/ <strong>Python</strong></a> for data on films I&#39;ve rated on the Letterboxd film-reviewing platform
+  <li><a href="PersonalProjects/LetterboxdWebScraping.ipynb" target="_blank">Web scraped 171 webpages w/ <strong>Python</strong></a> for data on films I&#39;ve rated on the Letterboxd film-reviewing platform</li>
   <li>Performed data analysis of various datasets in <strong>SQL</strong> to uncover personal film-watching/-rating trends, comparisons to other Letterboxd users, and characteristics of highly-rated films to inform future film selection</li>
 
 <h1 id="education">Education</h1>
