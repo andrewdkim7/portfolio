@@ -124,15 +124,15 @@
 
 <hr style="border: none; height: 2px;">
 
-<h2 id="education">Education</h2>
+<h1 id="education">Education</h1>
 <p><strong>Rice University <em>(2021 - 2025)</em></strong> <em>3.95 GPA (cum laude)</em><br>Social Policy Analysis, BA<br>Managerial Economics and Organizational Studies, BA<br>Political Science, BA<br>Data Science, Minor<br>Spanish, Minor</p>
 <p><strong>Relevant Coursework</strong><br>Applied Machine Learning &amp; Data Science Projects • Data Science Tools &amp; Models • Machine Learning for Data Science • R for Data Science • Probability &amp; Statistics for Data Science • Applied Econometrics • Applied Research Methods in Political Science • Survey Research in American Politics</p>
 
-<h2 id="skills">Skills</h2>
+<h1 id="skills">Skills</h1>
 <p><strong>Technical Skills</strong><br>Python • R • SQL • Tableau • Git • AWS • Microsoft Suite • Qualtrics • HTML/CSS • Statistics/Econometrics • CRMs</p>
 <p><strong>Technically Skills</strong><br>Spanish (CEFR-C1) • Building Escape Rooms • Writing Satire</p>
 
-<h2 id="work">Technical Work Experience</h2>
+<h1 id="work">Technical Work Experience</h1>
 <h3 id="trilogy">Trilogy Interactive - Digital Production Fellow (Summer 2022)</h3>
   <li>Built emails and online landing pages in <strong>HTML/CSS</strong> for progressive political campaigns to email lists of 550,000+ users using CRMs incl. Mailchimp, EveryAction, Acoustic<br>
   <li>Analyzed email/social media performance in Excel and drafted reports w/ content recommendations, updating existing data cleaning workflow for improved accuracy</li>
