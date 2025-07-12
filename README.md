@@ -10,7 +10,7 @@
 <li>Gradient-boosted tree and linear regression models in <strong>Python</strong> to predict voter support for and abstentions from U.S. state ballot measures, utilizing web-scraped data (with Selenium and Beautiful Soup) on ballot language, campaign spending, demographics, etc. <a href="#in-pursuit-of-direct-democracy">(jump to section)</a></li>
 <br>
 
-<hr style="border: none; height: 2px; background-color: #333;">
+<hr style="border: none; height: 2px;">
 
 <h1 id="table-of-contents">Table of Contents</h1>
 <h3><a href="#democracy">Democracy and Civic Representation Projects</a></h3>
@@ -35,7 +35,7 @@
 </ul>
 <h3><a href="#education">Education, Skills, and Work Experience</a></h3>
 
-<hr style="border: none; height: 2px; background-color: #333;">
+<hr style="border: none; height: 2px;">
 
 <h1 id="democracy">Democracy and Civic Representation Projects</h1>
 
@@ -85,7 +85,7 @@
 <p><img src="DemocracyAndCivicRepresentation/visuals/bipartisan.png" alt="Bipartisanship Plots"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/reports/SenateBipartisanship_Writeup.pdf" target="_blank">Read the full write-up here!</a></p>
 
-<hr style="border: none; height: 2px; background-color: #333;">
+<hr style="border: none; height: 2px;">
 
 <h1 id="urban">Urban Justice, Health, and Equity Projects</h1>
 
@@ -114,7 +114,7 @@
 <p><img src="UrbanJusticeHealthAndEquity/visuals/sentencingmodel.png" alt="Sentencing Model Regression Table"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/reports/HarrisCountySentencingDisparities_Report.pdf" target="_blank">Read the full report here!</a></p>
 
-<hr style="border: none; height: 2px; background-color: #333;">
+<hr style="border: none; height: 2px;">
 
 <h1 id="personal-projects">Personal Projects</h1>
 <h3 id="letterboxd"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/PersonalProjects/LetterboxdSQLAnalysis.ipynb" target="_blank">Letterboxd Rating SQL Analysis</a></ins></h3>
@@ -122,9 +122,9 @@
   <li>Performed data analysis of various datasets in <strong>SQL</strong> to uncover personal film-watching/-rating trends, comparisons to other Letterboxd users, and characteristics of highly-rated films to inform future film selection</li>
 <br>
 
-<hr style="border: none; height: 2px; background-color: #333;">
+<hr style="border: none; height: 2px;">
 
-<h1 id="education">Education</h1>
+<h2 id="education">Education</h2>
 <p><strong>Rice University <em>(2021 - 2025)</em></strong> <em>3.95 GPA (cum laude)</em><br>Social Policy Analysis, BA<br>Managerial Economics and Organizational Studies, BA<br>Political Science, BA<br>Data Science, Minor<br>Spanish, Minor</p>
 <p><strong>Relevant Coursework</strong><br>Applied Machine Learning &amp; Data Science Projects • Data Science Tools &amp; Models • Machine Learning for Data Science • R for Data Science • Probability &amp; Statistics for Data Science • Applied Econometrics • Applied Research Methods in Political Science • Survey Research in American Politics</p>
 
@@ -132,7 +132,7 @@
 <p><strong>Technical Skills</strong><br>Python • R • SQL • Tableau • Git • AWS • Microsoft Suite • Qualtrics • HTML/CSS • Statistics/Econometrics • CRMs</p>
 <p><strong>Technically Skills</strong><br>Spanish (CEFR-C1) • Building Escape Rooms • Writing Satire</p>
 
-<h1 id="work">Technical Work Experience</h1>
+<h2 id="work">Technical Work Experience</h2>
 <h3 id="trilogy">Trilogy Interactive - Digital Production Fellow (Summer 2022)</h3>
   <li>Built emails and online landing pages in <strong>HTML/CSS</strong> for progressive political campaigns to email lists of 550,000+ users using CRMs incl. Mailchimp, EveryAction, Acoustic<br>
   <li>Analyzed email/social media performance in Excel and drafted reports w/ content recommendations, updating existing data cleaning workflow for improved accuracy</li>
