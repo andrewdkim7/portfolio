@@ -9,7 +9,7 @@
 <li>Geospatial interpolation models in <strong>Python</strong> to estimate small particle air pollution in at-risk Houston neighborhoods via map interface for publication by Houston Chronicle <a href="#air-pollution">(jump to section)</a>
 <li>Gradient-boosted tree and linear regression models in <strong>Python</strong> to predict voter support for and abstentions from U.S. state ballot measures, utilizing web-scraped data (with Selenium and Beautiful Soup) on ballot language, campaign spending, demographics, etc. <a href="#in-pursuit-of-direct-democracy">(jump to section)</a></p>
 
-<h1 id="table-of-contents">Project Table of Contents</h1>
+<h1 id="table-of-contents">Table of Contents</h1>
 <h3><a href="#democracy">Democracy and Civic Representation Projects</a></h3>
 <ul>
   <li><a href="#veneration">Veneration vs. Respect: Reevaluating Public Aversion to Amending the U.S. Constitution</a>
