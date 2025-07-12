@@ -52,8 +52,8 @@
   <li>Cleaned/analyzed responses in <strong>R</strong> with descriptive visualization, factor analysis, and multivariate regression to identify two distinct dimensions of conventional measures of constitutional respect -- symbolic respect and perception of modern relevance</li>
   <li>Identified distinct statistical relationships between each dimension of constitutional respect and constitutional amendment process rigidity level preference, general support for constitutional amendments, political trust, and political knowledge</li>
   <li>Pursuing peer-reviewed journal publication in collaboration with Dr. Robert Stein and Dr. Joseph Cozza</li>
-
-<p><img src="DemocracyAndCivicRepresentation/visuals/amendment_support.png" alt="Amendment Support Shares by Party" width=50%><img src="DemocracyAndCivicRepresentation/visuals/rigidity_coefs.png" alt="Amendment Rigidity Preference Regression Coefficients" width=50%></p>
+<br>
+<p><img src="DemocracyAndCivicRepresentation/visuals/amendment_support.png" alt="Amendment Support Shares by Party" width="50%"><img src="DemocracyAndCivicRepresentation/visuals/rigidity_coefs.png" alt="Amendment Rigidity Preference Regression Coefficients" width="50%"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/reports/VenerationvsRespect_Paper.pdf" target="_blank">Read the full report here!</a></p>
 
 <h3 id="in-pursuit-of-direct-democracy"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/BallotMeasures.ipynb" target="_blank">In Pursuit of Direct Democracy: Analyzing Predictors of U.S. State Ballot Measure Support and Roll-off (Summer - Fall 2024)</a></ins></h3>
@@ -61,34 +61,34 @@
   <li>Cleaned and merged datasets from 9 sources, as well as engineered new predictive features (incl. via textual readability analysis)
   <li>Built gradient-boosted trees to derive high-importance features in predicting ballot measure support and roll-off
   <li>Ran linear regression models and identified significant effects of campaign fundraising on swaying vote share and of ballot text presentation and low-information voter turnout on ballot measure abstentions</li>
-
+<br>
 <p><img src="DemocracyAndCivicRepresentation/visuals/rolloffregressiontable.png" alt="Ballot Measure Roll-off Regression Table" width="40%"><img src="DemocracyAndCivicRepresentation/visuals/rollofffeatureimportances.png" alt="Ballot Measure Roll-off Gradient-Boosted Tree Feature Importances" width="60%"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/reports/BallotMeasures_Report.pdf" target="_blank">Read the full report here!</a></p>
 
 <h3 id="yes-no-for-against"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/YesNoForOrAgainst.R" target="_blank">Yes, No, For, or Against?: How Ballot Measure Wording Impacts Comprehension (Fall 2024)</a></ins></h3>
   <li>Partner research paper on how features of ballot measure wording influence voters' satisfaction with ballot usability and ability to vote according to their true preferences
   <li>Analyzed 430 Qualtrics survey responses in <strong>R</strong> to find that framing maintenance of policy status quo as affirmative vote significantly reduces voting accuracy without conscious perception of increased voting difficulty by voters</li>
-
+<br>
 <p><img src="DemocracyAndCivicRepresentation/visuals/ballottextplot.png" alt="Ballot Text Feature Coefficient Plot on Voting Accuracy"></p>
 
 <h3 id="sdr"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/SameDayVoterRegistration.R" target="_blank">Evaluating the Impact of Same-Day Voter Registration on 2020 Election Turnout (Fall 2023)</a></ins></h3>
   <li>Simulated hypothetical voter turnout data in 33 U.S. states and conducted difference-in-differences evaluation of same-day voter registration (SDR) policy on electoral turnout in <strong>R</strong>
   <li>Prescribed policy recommendation in favor of SDR based on simulated findings</li>
-
+<br>
 <p><img src="DemocracyAndCivicRepresentation/visuals/sdrplot.png" alt="SDR Effect Plot"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/reports/SameDayRegistration_Report.pdf" target="_blank">Read the full report here!</a></p>
 
 <h3 id="biographical-electability"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/BiographicalElectability.R" target="_blank">Biographical Electability: Effects of Dishonesty on Political Trust (Spring 2023)</a></ins></h3>
   <li>Team research paper exploring effects of electoral candidate’s dishonesty about biographical profile via vignette-based Qualtrics survey of 572 U.S. residents
   <li>Cleaned responses and conducted statistical tests (with poster-ready visualizations) in <strong>R</strong> to evaluate effect of subject of various biographical lies on perceived electability</li>
-
+<br>
 <p><img src="DemocracyAndCivicRepresentation/visuals/lieeffects.png" alt="Biographical Lie Effects"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/reports/BiographicalElectability_Paper.pdf" target="_blank">Read the full report here!</a></p>
 
 <h3 id="bipartisanship"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/SenateBipartisanship.R" target="_blank">Senate Bipartisanship from 2015-2021 (Fall 2022)</a></ins></h3>
   <li>Analyzed effect of year and party of U.S. Senators on individual bipartisanship scores with fixed-effects bivariate linear regression in <strong>R</strong>
   <li>Concluded no significant change in bipartisanship between 2015 to 2021 and significantly lower bipartisanship among Democratic Senators</li>
-
+<br>
 <p><img src="DemocracyAndCivicRepresentation/visuals/bipartisan.png" alt="Bipartisanship Plots"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/reports/SenateBipartisanship_Writeup.pdf" target="_blank">Read the full write-up here!</a></p>
 
@@ -100,28 +100,28 @@
   <li>With data team, synthesized Houston air pollution data from governmental and community-based sources to develop geospatial interpolation models (Inverse Distance Weighting, Ordinary Kriging, and Regression Kriging) mapping estimated PM2.5 pollutant concentration levels in locations lacking sensors in <strong>Python</strong>
   <li>Wrangled and interpolated auxiliary datasets to analyze statistical effects of weather, traffic, industrial emissions, and land use on air pollution, concluding high-traffic, high-development, and low-income neighborhoods are at higher risk
   <li>Produced <a href="https://dustbusters.streamlit.app" target="_blank">demo interface</a> enabling users to determine air pollution at own ZIP code and identity pollution hotspots across Houston, supporting development of online tool to be published by Houston Chronicle
-
+<br>
 <p><img src="UrbanJusticeHealthAndEquity/visuals/pm25_map.png" alt="Sample map of estimated PM2.5 air pollution concentration across Houston" width="40%"><img src="UrbanJusticeHealthAndEquity/visuals/pm25_pipeline.png" alt="Data science pipeline of PM2.5 interpolation project" width="60%"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/reports/AirPollution_Report.pdf" target="_blank">Read the full report here!</a></p>
 
 <h3 id="medical-debt"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/MedicalDebt.R" target="_blank">Uncovering Medical Debt in the Harris County Judical System (Fall 2024 - Spring 2025)</a></ins></h3>
   <li><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/MedicalDebtPetitionScraper.ipynb" target="_blank">Automated document query and download process</a> for over 1,000 civil debt lawsuit petitions in <strong>Python</strong> for January Advisors to quantify medical debt incidence in Harris County
   <li>Performed <a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/MedicalDebt.R" target="_blank">statistical analysis and visualization</a> of demographic inequities in medical debt burdens and judicial outcomes in <strong>R</strong> to inform research team's policy recommendations urging debt defendant support and court data transparency
-
+<br>
 <p><img src="UrbanJusticeHealthAndEquity/visuals/defaultjudgment.png" alt="Bar chart of debt lawsuit default judgment rates by race/ethnicity group" width="50%"><img src="UrbanJusticeHealthAndEquity/visuals/medicaldebtmap.png" alt="Map of medical debt lawsuit case concentrations in Harris County" width="50%"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/reports/MedicalDebt_Report.pdf" target="_blank">Read the full report here!</a></p>
 
 <h3 id="austin-crime-killer-plot"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/AustinCrimeKillerPlot.qmd" target="_blank">Analysis of Crime Reports in Austin, TX (Fall 2024)</a></ins></h3>
   <li>Developed presentation-ready visualizations of patterns and potential causes for crime in <strong>R</strong> from 2 million+ row Austin, TX crime report dataset alongside secondary datasets on city demographics and education quality with 3 teammates
   <li>Individually and manually implemented interactive "killer plot" visualization in <strong>R Shiny</strong> with grid library showcasing relative community safety strengths and balances of Austin council districts using standardized measures of school quality, case solve rate, change in crime, and violent crime rate</li>
-
+<br>
 <p><img src="UrbanJusticeHealthAndEquity/visuals/killerplot1.png" alt="Community Safety Killer Plot Before Interaction"><img src="UrbanJusticeHealthAndEquity/visuals/killerplot2.png" alt="Community Safety Killer Plot After Interaction"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/reports/AustinCrime_Report.pdf" target="_blank">Read the full report here!</a></p>
 
 <h3 id="criminal-sentencing"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/HarrisCountySentencingDisparities.ipynb" target="_blank">Modeling Criminal Sentencing Disparities in Harris County (Fall 2024)</a></ins></h3>
   <li>Cleaned Harris County criminal sentencing dataset with over 3 million rows and engineered 9 new features with partner in <strong>Python</strong>
   <li>Built linear regression models to predict sentencing harshness based on charge-related and defendant demographic variables, concluding significant disparities across race, gender, and citizenship status</li>
-
+<br>
 <p><img src="UrbanJusticeHealthAndEquity/visuals/sentencingmodel.png" alt="Sentencing Model Regression Table"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/reports/HarrisCountySentencingDisparities_Report.pdf" target="_blank">Read the full report here!</a></p>
 
