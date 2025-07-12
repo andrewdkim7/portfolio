@@ -45,7 +45,7 @@
     <ul>
       <li>2025 Best Overall Oral Presentation at Rice University's Social Sciences Undergraduate Research Symposium</li>
       <li>2025 Ambler Award for Best Honors Thesis in Political Science</li>
-      <li>Distinction in Research and Creative Work in Politicla Science>
+      <li>Distinction in Research and Creative Work in Politicla Science</li>
       <li>2024 Hudspeth Award for Best Undergraduate Seminar Paper in Political Science</li>
     </ul></li>
   <li>Independent honors thesis research paper on public attitudes towards federal Constitution and its amendment</li>
