@@ -45,12 +45,12 @@
       <li>2025 Best Overall Oral Presentation at Rice University's Social Sciences Undergraduate Research Symposium</li>
       <li>2025 Ambler Award for Best Honors Thesis in Political Science</li>
       <li>2024 Hudspeth Award for Best Undergraduate Seminar Paper in Political Science</li>
-    </ul></li>
-  <li>Independent honors thesis research paper on public attitudes towards federal Constitution and its amendment</li>
-  <li>Obtained $3,000 in funding to design and administer nationwide Qualtrics survey of 1,792 U.S. residents</li>
-  <li>Cleaned/analyzed responses in <strong>R</strong> with descriptive visualization, factor analysis, and multivariate regression to identify two distinct dimensions of conventional measures of constitutional respect -- symbolic respect and perception of modern relevance</li>
-  <li>Identified distinct statistical relationships between each dimension of constitutional respect and constitutional amendment process rigidity level preference, general support for constitutional amendments, political trust, and political knowledge</li>
-  <li>Pursuing peer-reviewed journal publication in collaboration with Dr. Robert Stein and Dr. Joseph Cozza</li>
+    </ul>
+  <li>Independent honors thesis research paper on public attitudes towards federal Constitution and its amendment
+  <li>Obtained $3,000 in funding to design and administer nationwide Qualtrics survey of 1,792 U.S. residents
+  <li>Cleaned/analyzed responses in <strong>R</strong> with descriptive visualization, factor analysis, and multivariate regression to identify two distinct dimensions of conventional measures of constitutional respect -- symbolic respect and perception of modern relevance
+  <li>Identified distinct statistical relationships between each dimension of constitutional respect and constitutional amendment process rigidity level preference, general support for constitutional amendments, political trust, and political knowledge
+  <li>Pursuing peer-reviewed journal publication in collaboration with Dr. Robert Stein and Dr. Joseph Cozza
 <p><img src="DemocracyAndCivicRepresentation/visuals/amendment_support.png" alt="Amendment Support Shares by Party" width=50%><img src="DemocracyAndCivicRepresentation/visuals/rigidity_coefs.png" alt="Amendment Rigidity Preference Regression Coefficients" width=50%></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/reports/VenerationvsRespect_Paper.pdf" target="_blank">Read the full report here!</a></p>
 
