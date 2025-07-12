@@ -46,17 +46,17 @@
   <li>Analyzed 430 Qualtrics survey responses in <strong>R</strong> to find that framing maintenance of policy status quo as affirmative vote significantly reduces voting accuracy without conscious perception of increased voting difficulty by voters</li>
 <p><img src="DemocracyAndCivicRepresentation/visuals/ballottextplot.png" alt="Ballot Text Feature Coefficient Plot on Voting Accuracy"></p>
 
-<h3 id="biographical-electability"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/BiographicalElectability.R" target="_blank">Biographical Electability: Effects of Dishonesty on Political Trust (Spring 2023)</a></ins></h3>
-  <li>Team research paper exploring effects of electoral candidate’s dishonesty about biographical profile via vignette-based Qualtrics survey of 572 U.S. residents
-  <li>Cleaned responses and conducted statistical tests (with poster-ready visualizations) in <strong>R</strong> to evaluate effect of subject of various biographical lies on perceived electability</li>
-<p><img src="DemocracyAndCivicRepresentation/visuals/lieeffects.png" alt="Biographical Lie Effects"></p>
-<p><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/reports/BiographicalElectability_Paper.pdf" target="_blank">Read the full report here!</a></p>
-
 <h3 id="sdr"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/SameDayVoterRegistration.R" target="_blank">Evaluating the Impact of Same-Day Voter Registration on 2020 Election Turnout (Fall 2023)</a></ins></h3>
   <li>Simulated hypothetical voter turnout data in 33 U.S. states and conducted difference-in-differences evaluation of same-day voter registration (SDR) policy on electoral turnout in <strong>R</strong>
   <li>Prescribed policy recommendation in favor of SDR based on simulated findings</li>
 <p><img src="DemocracyAndCivicRepresentation/visuals/sdrplot.png" alt="SDR Effect Plot"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/reports/SameDayRegistration_Report.pdf" target="_blank">Read the full report here!</a></p>
+
+<h3 id="biographical-electability"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/BiographicalElectability.R" target="_blank">Biographical Electability: Effects of Dishonesty on Political Trust (Spring 2023)</a></ins></h3>
+  <li>Team research paper exploring effects of electoral candidate’s dishonesty about biographical profile via vignette-based Qualtrics survey of 572 U.S. residents
+  <li>Cleaned responses and conducted statistical tests (with poster-ready visualizations) in <strong>R</strong> to evaluate effect of subject of various biographical lies on perceived electability</li>
+<p><img src="DemocracyAndCivicRepresentation/visuals/lieeffects.png" alt="Biographical Lie Effects"></p>
+<p><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/reports/BiographicalElectability_Paper.pdf" target="_blank">Read the full report here!</a></p>
 
 <h3 id="bipartisanship"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/SenateBipartisanship.R" target="_blank">Senate Bipartisanship from 2015-2021 (Fall 2022)</a></ins></h3>
   <li>Analyzed effect of year and party of U.S. Senators on individual bipartisanship scores with fixed-effects bivariate linear regression in <strong>R</strong>
