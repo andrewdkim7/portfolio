@@ -4,31 +4,31 @@
 
 <p><strong>Current Project:</strong> Geospatial and demographic analysis of inequities in NYC historic landmark designation, culminating in public dashboard and toolkit to support community-driven nominations as form of civic representation</p>
 
-<p><strong>Featured Projects:</strong> 
-<li>Administration and analysis of nationwide survey (N = 1,792) on U.S. residents' constitutional attitudes in <strong>R</strong>, using factor analysis and multivariate regression to discern multidimensionality of constitutional respect <a href="#veneration">(jump to section)</a>
-<li>Geospatial interpolation models in <strong>Python</strong> to estimate small particle air pollution in at-risk Houston neighborhoods via map interface for publication by Houston Chronicle <a href="#air-pollution">(jump to section)</a>
-<li>Gradient-boosted tree and linear regression models in <strong>Python</strong> to predict voter support for and abstentions from U.S. state ballot measures, utilizing web-scraped data (with Selenium and Beautiful Soup) on ballot language, campaign spending, demographics, etc. <a href="#in-pursuit-of-direct-democracy">(jump to section)</a></p>
+<p><strong>Featured Projects:</strong><p>
+<li>Administration and analysis of nationwide survey (N = 1,792) on U.S. residents' constitutional attitudes in <strong>R</strong>, using factor analysis and multivariate regression to discern multidimensionality of constitutional respect <a href="#veneration">(jump to section)</a></li>
+<li>Geospatial interpolation models in <strong>Python</strong> to estimate small particle air pollution in at-risk Houston neighborhoods via map interface for publication by Houston Chronicle <a href="#air-pollution">(jump to section)</a></li>
+<li>Gradient-boosted tree and linear regression models in <strong>Python</strong> to predict voter support for and abstentions from U.S. state ballot measures, utilizing web-scraped data (with Selenium and Beautiful Soup) on ballot language, campaign spending, demographics, etc. <a href="#in-pursuit-of-direct-democracy">(jump to section)</a></li>
 
 <h1 id="table-of-contents">Table of Contents</h1>
 <h3><a href="#democracy">Democracy and Civic Representation Projects</a></h3>
 <ul>
-  <li><a href="#veneration">Veneration vs. Respect: Reevaluating Public Aversion to Amending the U.S. Constitution</a>
-  <li><a href="in-pursuit-of-direct-democracy">In Pursuit of Direct Democracy: Analyzing Predictors of U.S. State Ballot Measure Support and Roll-off</a>
-  <li><a href="yes-no-for-against">Yes, No, For, or Against?: How Ballot Measure Wording Impacts Comprehension</a>>
-  <li><a href="sdr">Evaluating the Impact of Same-Day Voter Registration on 2020 Election Turnout</a>
-  <li><a href="biographical-electability">Biographical Electability: Effects of Dishonesty on Political Trust</a>
-  <li><a href="bipartisanship">Senate Bipartisanship from 2015-2021</a>
+  <li><a href="#veneration">Veneration vs. Respect: Reevaluating Public Aversion to Amending the U.S. Constitution</a></li>
+  <li><a href="in-pursuit-of-direct-democracy">In Pursuit of Direct Democracy: Analyzing Predictors of U.S. State Ballot Measure Support and Roll-off</a></li>
+  <li><a href="yes-no-for-against">Yes, No, For, or Against?: How Ballot Measure Wording Impacts Comprehension</a></li>
+  <li><a href="sdr">Evaluating the Impact of Same-Day Voter Registration on 2020 Election Turnout</a></li>
+  <li><a href="biographical-electability">Biographical Electability: Effects of Dishonesty on Political Trust</a></li>
+  <li><a href="bipartisanship">Senate Bipartisanship from 2015-2021</a></li>
 </ul>
 <h3><a href="#urban">Urban Justice, Health, and Equity Projects</a></h3>
 <ul>
-  <li><a href="air-pollution">Filling in the Map: Spatial Interpolation of Small Particle Air Pollution in Houston from Multi-Source Air Quality Data</a>
-  <li><a href="medical-debt">Uncovering Medical Debt in the Harris County Judical System</a>
-  <li><a href="austin-crime-killer-plot">Analysis of Crime Reports in Austin, TX</a>
-  <li><a href="criminal-sentencing">Modeling Criminal Sentencing Disparities in Harris County</a>
+  <li><a href="air-pollution">Filling in the Map: Spatial Interpolation of Small Particle Air Pollution in Houston from Multi-Source Air Quality Data</a></li>
+  <li><a href="medical-debt">Uncovering Medical Debt in the Harris County Judical System</a></li>
+  <li><a href="austin-crime-killer-plot">Analysis of Crime Reports in Austin, TX</a></li>
+  <li><a href="criminal-sentencing">Modeling Criminal Sentencing Disparities in Harris County</a></li>
 </ul>
 <h3><a href="#personal-projects">Personal Projects</a></h3>
 <ul>
-  <li><a href="letterboxd">Letterboxd Rating SQL Analysis</a>
+  <li><a href="letterboxd">Letterboxd Rating SQL Analysis</a></li>
 </ul>
 <h3><a href="#education">Education, Skills, and Work Experience</a></h3>
 
