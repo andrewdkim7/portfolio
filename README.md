@@ -1,5 +1,5 @@
-<h1 id="hi-there-i-m-andrew-">Hi there, I&#39;m Andrew!</h1>
-<h2 id="_i-like-data-and-policy-_"><em>I like data and policy.</em></h2>
+<h1 id="header">Hi there, I&#39;m Andrew!</h1>
+<h2 id="tagline"><em>I like data and policy.</em></h2>
 <p>I&#39;m a recent graduate of Rice University, where I studied social policy analysis and data science. Drawing on my experience in quantiative policy research and leading community initiatives, I&#39;m keen to apply my analytical skills to advance democratic, equity-driven policymaking.</p>
 
 <p><strong>Current Project:</strong> Geospatial and demographic analysis of inequities in NYC historic landmark designation, culminating in public dashboard and toolkit to support community-driven nominations as form of civic representation</p>
@@ -8,8 +8,7 @@
 <li>Administration and analysis of nationwide survey (N = 1,792) on U.S. residents' constitutional attitudes in <strong>R</strong>, using factor analysis and multivariate regression to discern multidimensionality of constitutional respect <a href="#veneration">(jump to section)</a></li>
 <li>Geospatial interpolation models in <strong>Python</strong> to estimate small particle air pollution in at-risk Houston neighborhoods via map interface for publication by Houston Chronicle <a href="#air-pollution">(jump to section)</a></li>
 <li>Gradient-boosted tree and linear regression models in <strong>Python</strong> to predict voter support for and abstentions from U.S. state ballot measures, utilizing web-scraped data (with Selenium and Beautiful Soup) on ballot language, campaign spending, demographics, etc. <a href="#in-pursuit-of-direct-democracy">(jump to section)</a></li>
-<br>
-
+---
 <h1 id="table-of-contents">Table of Contents</h1>
 <h3><a href="#democracy">Democracy and Civic Representation Projects</a></h3>
 <ul>
@@ -32,7 +31,7 @@
   <li><a href="#letterboxd">Letterboxd Rating SQL Analysis</a></li>
 </ul>
 <h3><a href="#education">Education, Skills, and Work Experience</a></h3>
-
+---
 <h1 id="democracy">Democracy and Civic Representation Projects</h1>
 
 <h3 id="veneration"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/ConstitutionalVeneration.R" target="_blank">Veneration vs. Respect: Reevaluating Public Aversion to Amending the U.S. Constitution (Fall 2023 - Present)</a></ins></h3>
@@ -80,7 +79,7 @@
   <li>Concluded no significant change in bipartisanship between 2015 to 2021 and significantly lower bipartisanship among Democratic Senators</li>
 <p><img src="DemocracyAndCivicRepresentation/visuals/bipartisan.png" alt="Bipartisanship Plots"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/DemocracyAndCivicRepresentation/reports/SenateBipartisanship_Writeup.pdf" target="_blank">Read the full write-up here!</a></p>
-
+---
 <h1 id="urban">Urban Justice, Health, and Equity Projects</h1>
 
 <h3 id="air-pollution"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/reports/AirPollution_Report.pdf" target="_blank">Filling in the Map: Spatial Interpolation of Small Particle Air Pollution in Houston from Multi-Source Air Quality Data (Spring 2025)</a></ins></h3>
@@ -107,18 +106,17 @@
   <li>Built linear regression models to predict sentencing harshness based on charge-related and defendant demographic variables, concluding significant disparities across race, gender, and citizenship status</li>
 <p><img src="UrbanJusticeHealthAndEquity/visuals/sentencingmodel.png" alt="Sentencing Model Regression Table"></p>
 <p><a href="https://github.com/andrewdkim7/portfolio/blob/main/UrbanJusticeHealthAndEquity/reports/HarrisCountySentencingDisparities_Report.pdf" target="_blank">Read the full report here!</a></p>
-
+---
 <h1 id="personal-projects">Personal Projects</h1>
 <h3 id="letterboxd"><ins><a href="https://github.com/andrewdkim7/portfolio/blob/main/PersonalProjects/LetterboxdSQLAnalysis.ipynb" target="_blank">Letterboxd Rating SQL Analysis</a></ins></h3>
   <li><a href="PersonalProjects/LetterboxdWebScraping.ipynb" target="_blank">Web scraped 171 webpages w/ <strong>Python</strong></a> for data on films I&#39;ve rated on the Letterboxd film-reviewing platform</li>
   <li>Performed data analysis of various datasets in <strong>SQL</strong> to uncover personal film-watching/-rating trends, comparisons to other Letterboxd users, and characteristics of highly-rated films to inform future film selection</li>
-<br>
-
+---
 <h1 id="education">Education</h1>
 <p><strong>Rice University <em>(2021 - 2025)</em></strong> <em>3.95 GPA (cum laude)</em><br>Social Policy Analysis, BA<br>Managerial Economics and Organizational Studies, BA<br>Political Science, BA<br>Data Science, Minor<br>Spanish, Minor</p>
 <p><strong>Relevant Coursework</strong><br>Applied Machine Learning &amp; Data Science Projects • Data Science Tools &amp; Models • Machine Learning for Data Science • R for Data Science • Probability &amp; Statistics for Data Science • Applied Econometrics • Applied Research Methods in Political Science • Survey Research in American Politics</p>
 
-<h3 id="skills">Skills</h3>
+<h2 id="skills">Skills</h2>
 <p><strong>Technical Skills</strong><br>Python • R • SQL • Tableau • Git • AWS • Microsoft Suite • Qualtrics • HTML/CSS • Statistics/Econometrics • CRMs</p>
 <p><strong>Technically Skills</strong><br>Spanish (CEFR-) • Building Escape Rooms • Writing Satire</p>
 
