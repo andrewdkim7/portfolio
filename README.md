@@ -1,6 +1,6 @@
 <h1 id="header">Hi there, I&#39;m Andrew!</h1>
 <h2 id="tagline"><em>I like data and policy.</em></h2>
-<p>I&#39;m a recent graduate of Rice University, where I studied social policy analysis and data science. Drawing on my experience in quantiative policy research and leading community initiatives, I&#39;m keen to apply my analytical skills to advance democratic, equity-driven policymaking.</p>
+<p>I&#39;m a Budget Analyst at the NYC Office of Management and Budget, currently providing financial analysis and workflow modernization for NYC Parks' expense and capital budgets. As a graduate of Rice University, I studied social policy analysis and data science. Drawing on my experience in quantiative policy research and leading community initiatives, I&#39;m keen to apply my analytical skills to advance democratic, equity-driven policymaking.</p>
 
 <p><strong>Current Project:</strong> Geospatial and demographic analysis of inequities in NYC historic landmark designation, culminating in public dashboard and toolkit to support community-driven nominations as form of civic representation</p>
 
