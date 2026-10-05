@@ -49,7 +49,7 @@
     </ul></li>
   <li>Independent honors thesis research paper on public attitudes towards federal Constitution and its amendment</li>
   <li>Obtained $3,000 in funding to design and administer nationwide Qualtrics survey of 1,792 U.S. residents</li>
-  <li>Cleaned/analyzed responses in <strong>R</strong> with descriptive visualization, factor analysis, and multivariate regression to identify two distinct dimensions of conventional measures of constitutional respect -- symbolic respect and perception of modern relevance</li>
+  <li>Cleaned/analyzed responses in <strong>R</strong> with descriptive visualization, factor analysis, and multivariate regression to identify two distinct dimensions of conventional measures of constitutional respect -- symbolic attachment and perceived modern adequacy</li>
   <li>Identified distinct statistical relationships between each dimension of constitutional respect and constitutional amendment process rigidity level preference, general support for constitutional amendments, political trust, and political knowledge</li>
   <li>Pursuing peer-reviewed journal publication in collaboration with Dr. Robert Stein and Dr. Joseph Cozza</li>
 <br>
